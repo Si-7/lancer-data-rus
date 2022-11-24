@@ -1,15 +1,12 @@
 {
-  "name": "lancer-data",
-  "version": "3.0.47",
+  "name": "lancer-data-rus",
+  "version": "1.0.1",
   "description": "Data for the LANCER TTRPG",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/massif-press/lancer-data.git"
-  },
+  "repository": "https://github.com/Si-7/lancer-data-rus.git",
   "directories": {
     "lib": "lib"
   },
-  "author": "Massif Press",
+  "author": "Si-7",
   "license": "GPL-3.0-or-later"
 }
