@@ -1,10 +1,10 @@
 [
   {
     "id": "act_move",
-    "name": "Move",
+    "name": "Перемещение",
     "activation": "Move",
-    "terse": "Move your character up to its Speed in any direction.",
-    "detail": "On their turn, characters can always move spaces equal to their SPEED, in addition to any other actions. This is called a standard move to distinguish it from movement granted by systems or talents.<br>A character only counts as moving if they move 1 or more spaces.<br>Characters can move into any adjacent space, even diagonally, as long as the space isn’t occupied by an obstruction (and is one that they would be able to move in – characters can't move straight up unless they can fly, for example). There are several factors that can affect movement, which are detailed here.",
+    "terse": "Перемещение до максимальной Скорости персонажа в любом.",
+    "detail": "В свой ход персонажи всегда могут переместиться на расстояние, равное их Скорости, в дополнение к любым другим действиям. Это называется стандартным перемещением, чтобы отличить его от перемещения, предостав-ляемого системами или талантами.<br>Персонаж считается перемещенным только в том случае, если он переместился на 1 или более пространств.<br>Персонажи могут перемещаться на любое соседнее пространство, даже по диагонали, при условии, что это пространство не занято препятствием (и этот гекс, на который они могли бы переместиться — персонажи не могут двигаться прямо вверх, если они не могут летать, например). Есть несколько факторов, которые могут повлиять на перемещение, и они подробно описаны здесь.",
     "pilot": true,
     "mech": true,
     "hide_active": true
