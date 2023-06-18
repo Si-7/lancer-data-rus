@@ -1,102 +1,102 @@
 [
   {
     "id": "env_dangerousflorafauna",
-    "name": "Dangerous Flora or Fauna",
-    "description": "An unusually large proportion of this planet’s animal or plant life is dangerous; some of the flora and fauna may predatory, particularly hostile, or even titanic in size. Use the Monstrosity NPC type to generate encounters with wildlife. Hostile flora can appear on the battlefield as immobile characters with Size 1–2, 5 HP, and Evasion 10; targets that move adjacent to them must succeed on a Hull save or take 3 Kinetic Damage and become Immobilized until the flora is destroyed, as it traps them with sticky sap, webbing, a pit, or the like."
+    "name": "Опасная Флора или Фауна",
+    "description": "Необычно большая часть животного и растительного мира этой планеты опасна; некоторые представители фауны и флоры могут быть хищными, очень враждебными или иметь титанические размеры. Используйте тип НИП “Чудовище” для создания столкновений с дикой природой. Враждебная флора может появляться на поле боя в виде неподвижных персонажей Размером 1-2, 5 ПЗ и Уклонением 10; цели, которые движутся рядом с ними, должны преуспеть в спасброске Корпуса или получить 3 Кинетического урона и стать Обездвиженными до тех пор, пока пленившее их растение не будет уничтожено, так как оно ловит их липким соком, паутиной, ямой и т.п."
   },
   {
     "id": "env_extremecold",
-    "name": "Extreme Cold",
-    "description": "Local cultures have adapted to the frozen climate, but mechs and pilots quickly freeze without a nearby source of heat. Mechs that don’t move or Boost on their turn become Immobilized at the end of their turn. This lasts until they break free with a successful Hull save as a quick action. In addition, all mechs gain Resistance to Heat."
+    "name": "Экстремальный Холод",
+    "description": "Местные культуры приспособились к морозному климату, но мехи и пилоты быстро замерзают без источника тепла поблизости. Мехи, которые не перемещаются и не Ускоряются в свой ход, становятся Обездвиженными в конце своего хода. Это длится до тех пор, пока они не освободятся при успешном спасброске Корпуса в качестве быстрого действия. Кроме того, все мехи получают Сопротивляемость к Нагреву."
   },    
   {
     "id": "env_extremeheat",
-    "name": "Extreme Heat",
-    "description": "Society has retreated mostly underground to escape this world’s blistering atmosphere. All Heat inflicted (to the user or others) by systems or weapons is increased by +1."
+    "name": "Экстремальная Жара",
+    "description": "Общество в основном ушло под землю, чтобы спастись от обжигающей атмосферы этого мира. Весь Нагрев, нанесенный (пользователю или другим) системами или оружием, увеличивается на +1."
   },
   {
     "id": "env_thinatmosphere",
-    "name": "Thin Atmosphere",
-    "description": "All characters gain Resistance to Explosive Damage."
+    "name": "Разреженная Атмосфера",
+    "description": "Все персонажи получают Сопротивляемость к Взрывному урону."
   },
   {
     "id": "env_extremesun",
-    "name": "Extreme Sun",
-    "description": "Characters take 1d6 Heat whenever they are aren’t in shade at the end of a turn."
+    "name": "Экстремальное Солнце",
+    "description": "Персонажи получают 1d6 Нагрева каждый раз, когда они не находятся в тени в конце хода. Каждый персонаж может получить этот урон только один раз за раунд."
   },
   {
     "id": "env_corrosiveatmosphere",
-    "name": "Corrosive Atmosphere",
-    "description": "The dense atmosphere of this world eats through armor. All weapons gain AP."
+    "name": "Коррозионная Среда",
+    "description": "Плотная атмосфера этого мира разъедает броню. Все оружие получает ББ."
   },
   {
     "id": "env_particulatestorms",
-    "name": "Particulate Storms",
-    "description": "This planet is swept by brutal, scouring storms of sand, rock, or metal. During storms, mechs always have soft cover. Pilots that leave their mech take 1 Kinetic Damage (AP) each turn they are outside."
+    "name": "Дисперсные Бури",
+    "description": "На этой планете бушуют жестокие, иссушающие бури из песка, камня или металла. Во время бури мехи всегда имеют мягкое укрытие. Пилоты, которые покидают своего меха, получают 1 ББ Кинетический урон каждый ход, пока они находятся снаружи."
   },
   {
     "id": "env_electricalstorms",
-    "name": "Electrical Storms",
-    "description": "This planet is swept by unusually strong electrical storms. During storms, choose a character at random at the end of each round: they must succeed on an ENGINEERING save with +1 Difficulty per level of Size or be STUNNED until the end of their next turn by a bolt of lightning."
+    "name": "Электрические Бури",
+    "description": "Эту планету охватывают необычно сильные электрические бури. Во время штормов случайным образом выбирайте персонажа в конце каждого раунда: он должен преуспеть в спасброске Инженерии с увеличением +1 Сложности за каждый уровень Размера, иначе он будет Ошеломлен до конца своего следующего хода ударом молнии."
   },
   {
     "id": "env_disruptivestorms",
-    "name": "Disruptive Storms",
-    "description": "The storms on this planet are so highly charged that electronic systems can’t function. All tech actions, attacks, and SYSTEMS checks and saves receive +1 Difficulty."
+    "name": "Разрушительные Бури",
+    "description": "Бури на этой планете настолько сильно заряжены, что электронные системы не могут функционировать. Все технические действия, атаки, проверки и спасброски Систем получают +1 Сложности."
   },
   {
     "id": "env_dangeroustorms",
-    "name": "Dangerous Storms",
-    "description": "Storms of fire, meteors, acid rain, ice, or other destructive particles sweep this planet. During storms, all characters take 2 Energy Damage (AP) at the end of their turns unless they are adjacent to an object that grants hard cover."
+    "name": "Опасные Бури",
+    "description": "Огненные бури, метеориты, кислотные дожди, лед или другие разрушительные частицы проносятся по этой планете. Во время бури все персонажи получают 2 ББ Кинетический урон в конце своего хода, если только они не находятся рядом с объектом, дающим твердое укрытие."
   },
   {
     "id": "env_oceanworld",
-    "name": "Ocean World",
-    "description": "Less than five percent of this world’s surface rises above the ocean. Mechs sink to the bottom and move as though in difficult terrain unless they are flying or have an EVA Module. Mechs can walk (slowly) on the bottom and are usually able to function in extremely high-pressure environments."
+    "name": "Мир Океанов",
+    "description": "Менее пяти процентов поверхности этого мира возвышается над океаном. Мехи погружаются на дно и передвигаются как по труднопроходимой местности, если только они не летают или не имеют ВКД Модуль. Мехи могут ходить (медленно) по дну и обычно способны функционировать в условиях чрезвычайно высокого давления."
   },
   {
     "id": "env_earthquakes",
-    "name": "Earthquakes",
-    "description": "This world is regularly rocked by earthquakes. During earthquakes, roll 1d6 at the end of each round: on 1, all mechs must succeed on a HULL save or be knocked Prone unless they are flying."
+    "name": "Землетрясения",
+    "description": "Этот мир регулярно сотрясают землетрясения. Во время землетрясений бросьте 1d6 в конце каждого раунда: при 1 все мехи должны преуспеть в спасброске Корпуса или будут Сбиты с ног, если только они не летают."
   },
   {
     "id": "env_moltenworld",
-    "name": "Molten World",
-    "description": "Parts of this world’s crust juts through the surface in showers and pools of liquid rock. When characters move into areas of molten rock or lava for the first time on their turn or start their turn there, they take 5 Energy Damage (AP) and 3 Heat."
+    "name": "Расплавленный Мир",
+    "description": "Части земной коры выступают на поверхность ливнями и бассейнами жидкой породы. Когда персонажи впервые за свой ход перемещаются в области с расплавленной породой или лавой или начинают свой ход там, они получают 5 ББ Кинетического урона и 3 Нагрева."
   },
   {
     "id": "env_primordealworld",
-    "name": "Primordial World",
-    "description": "This world is a bubbling soup of semi-organic mud and gases. Humans must use breathing apparatuses or sealed suits outside of their mechs to survive the toxic atmosphere, and boiling mud creates numerous areas of both difficult and dangerous terrain."
+    "name": "Мир Примордия",
+    "description": "Этот мир представляет собой бурлящий суп из полуорганической грязи и газов. Люди должны использовать дыхательные аппараты или герметичные скафандры вне своих мехов, чтобы выжить в токсичной атмосфере, а кипящая грязь создает многочисленные участки труднопроходимой и опасной местности."
   },
   {
     "id": "env_lowgravity",
-    "name": "Low Gravity",
-    "description": "Mechs count as flying when they Boost but must land after they move. Characters never take damage from falling."
+    "name": "Низкая Гравитация",
+    "description": "Мехи считаются летающими, когда они Ускоряются, но они должны приземлиться после того, как они переместятся. Персонажи никогда не получают урона от падения."
   },
   {
     "id": "env_highgravity",
-    "name": "High Gravity",
-    "description": "Mechs cannot Boost and are Immobilized instead whenever they would be Slowed."
+    "name": "Высокая Гравитация",
+    "description": "Мехи не могут Ускоряться и вместо этого Обездвиживаются всякий раз, когда их Замедляют. Сбитые с ног мехи могут стоять даже будучи Обездвиженными этой гравитацией, но для этого они должны пройти проверку Корпуса."
   },
   {
     "id": "env_tombworld",
-    "name": "Tomb World",
-    "description": "This world has extremely high levels of ambient radiation, possibly because of nuclear war, atmospheric degradation, or something more sinister. Outside of mechs, humans without environmental protection temporarily decrease their maximum HP by 1 per hour of exposure. If they reach 0 HP this way, they die. They can regain their maximum HP by performing a Full Repair in a safe environment."
+    "name": "Мир Гробница",
+    "description": "В этом мире чрезвычайно высокий уровень радиации, возможно, из-за ядерной войны, деградации атмосферы или чего-то более зловещего. Вне мехов, люди без защиты от окружающей среды временно снижают свой максимальный уровень ПЗ на 1 за час воздействия. Если они таким образом достигают 0 ПЗ, они умирают. Персонажи могут восстановить свой максимальный уровень ПЗ, выполнив Полный Ремонт в безопасной среде."
   },
   {
     "id": "env_spireworld",
-    "name": "Spire World",
-    "description": "Instead of a surface, this world is comprised of countless floating islands or spires, each held aloft in a gaseous substrate and suspended through magnetic force. Perhaps the crust was shattered by a superweapon or natural disaster. Most of the remaining landmass is disconnected, although some islands are large enough to hold cities. Navigation systems are almost useless here."
+    "name": "Мир Шпиля",
+    "description": "Вместо поверхности этот мир состоит из бесчисленных парящих островов или шпилей, каждый из которых держится на газообразной подложке и подвешен с помощью магнитной силы. Возможно, кора была разрушена супероружием или стихийным бедствием. Большая часть оставшейся суши разъединена, хотя некоторые острова достаточно велики, чтобы на них могли разместиться города. Навигационные системы здесь практически бесполезны."
   },
   {
     "id": "env_sinkingworld",
-    "name": "Sinking World",
-    "description": "The surface of this world is covered in fine sand or thick mud. Mechs that move 1 space or less during their turn are Slowed. Slowed mechs that move 1 space or less are Immobilized and start sinking, eventually becoming completely engulfed. This effect lasts until an affected mech (or one adjacent to it) succeeds on a Hull save as a full action."
+    "name": "Утопающий Мир",
+    "description": "Поверхность этого мира покрыта мелким песком или густой грязью. Мехи, которые перемещаются на 1 пространство или меньше во время своего хода, Замедляются. Замедленные мехи, которые двигаются на 1 пространство или меньше, Обездвиживаются и начинают тонуть, в конечном итоге оказываясь полностью поглощенными. Этот эффект длится до тех пор, пока пораженный мех (или соседний с ним) не преуспеет в спасброске Корпуса в качестве полного действия."
   },
   {
     "id": "env_holyworld",
-    "name": "Holy World",
-    "description": "This world is beautiful and lacks especially dangerous features, but the local population holds it sacrosanct. Damaging any natural object – rocks, trees, and pristine grasslands, for example – incurs the wrath of the residents."
+    "name": "Священный Мир",
+    "description": "Этот мир прекрасен и не имеет особо опасных особенностей, но местное население считает его неприкосновенным. Повреждение любого природного объекта — например, скал, деревьев или девственных лугов — влечет за собой гнев жителей."
   }  
 ]

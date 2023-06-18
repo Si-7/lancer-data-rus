@@ -3,67 +3,67 @@
     "id": "missing_corebonus",
     "name": "ERR: DATA NOT FOUND",
     "source": "",
-    "effect": "MISSING CORE BONUS DATA",
-    "description": "COMP/CON is unable to retrieve the data necessary to furnish this Core Bonus. This is likely the result of a missing or outdated content pack."
+    "effect": "ОТСУТСТВУЮТ ДАННЫЕ О БОНУСЕ ЯДРА",
+    "description": "COMP/CON не способен получить данные, необходимые для описания этого Бонуса Ядра. Скорее всего, это результат отсутствующего или устаревшего контент пака."
   },
   {
     "id": "cb_auto_stabilizing_hardpoints",
-    "name": "Auto-Stabilizing Hardpoints",
+    "name": "Автостабилизирующиеся Узлы Подвески",
     "source": "GMS",
-    "effect": "Choose one mount. Weapons attached to this mount gain +1 Accuracy.",
-    "description": "Using the best in shock-absorption and steadytech, you can retain accuracy across longer, sustained periods of fire.",
-    "mounted_effect": "Attacks made with weapons from this mount can be made with +1 ACCURACY."
+    "effect": "Выберите один слот. Оружие, прикрепленное к этому слоту, получает +1 Точность.",
+    "description": "Использование лучших технологий амортизации и устойчивости позволяет сохранять точность стрельбы в течение длительных и продолжительных периодов времени.",
+    "mounted_effect": "Оружие, прикрепленное к этому слоту, получает +1 Точность."
   },
   {
     "id": "cb_overpower_caliber",
-    "name": "Overpower Caliber",
+    "name": "Преобладающий Калибр",
     "source": "GMS",
-    "effect": "Choose one weapon. 1/round, when you hit with an attack, you can cause it to deal +1d6 bonus damage.",
-    "description": "Instead of the standardized option, you requisition multiple racks of “hot” ammunition – same-bore slugs, with a higher grade of accelerant.",
-    "mounted_effect": "One weapon equipped to this mount deals +1d6 bonus damage 1/round on hit."
+    "effect": "Выберите одно оружие. 1/раунд, когда вы атакуете, вы можете нанести дополнительный урон +1d6.",
+    "description": "Вместо стандартной опции вы реквизируете несколько стеллажей с «горячими» боеприпасами — пулями того же калибра с более высоким уровнем ускорителя.",
+    "mounted_effect": "Одно оружие, прикрепленное к этому слоту, 1/раунд наносит дополнительный урон +1d6."
   },
   {
     "id": "cb_improved_armament",
-    "name": "Improved Armament",
+    "name": "Усиленное Вооружение",
     "source": "GMS",
-    "effect": "If your mech has fewer than three mounts (excluding integrated mounts), it gains an additional Flexible mount.",
-    "description": "By rerouting power and strengthening systems, you can mount additional weapons beyond the factory recommendations."
+    "effect": "Если ваш мех имеет менее трех слотов (не считая встроенных слотов), он получает дополнительный Гибкий слот.",
+    "description": "Перераспределив питание и усилив системы, вы можете установить дополнительное вооружение сверх заводских рекомендаций."
   },
   {
     "id": "cb_integrated_weapon",
-    "name": "Integrated Weapon",
+    "name": "Встроенное Оружие",
     "source": "GMS",
-    "effect": "Your mech gains a new integrated mount with capacity for one Auxiliary weapon. This weapon can be fired 1/round as a free action when you fire any other weapon on your mech. It can’t be modified.",
-    "description": "The empty spaces in your mech’s chassis – inside fists, chest plates, anywhere there’s room – are filled with integrated weapons, ready to fire on reflex."
+    "effect": "Ваш мех получает новый встроенный слот, вмещающий одно Вспомогательное оружие. Это оружие может быть использовано 1/раунд в качестве свободного действия, когда вы стреляете из любого другого оружия на вашем мехе. Оно не может быть модифицировано.",
+    "description": "Пустые места в корпусе вашего меха — внутри кулаков, нагрудных пластин, везде, где есть место — заполнены встроенным оружием, готовым к рефлекторному выстрелу."
   },
   {
     "id": "cb_mount_retrofitting",
-    "name": "Mount Retrofitting",
+    "name": "Модернизация Слота",
     "source": "GMS",
-    "effect": "Replace one mount with a Main/Aux mount.",
-    "description": "By re-fabricating certain components and hardpoints on your chassis for more efficient distribution, you can increase your mech’s firepower.",
-    "mounted_effect": "This mount has been replaced with a Main/Aux Mount."
+    "effect": "Замените один слот на Осн./Вспом. слот.",
+    "description": "Пересобирая определенные компоненты и узлы подвески на вашем шасси для более эффективного распределения, вы можете увеличить огневую мощь своего меха.",
+    "mounted_effect": "Этот слот был заменен на Осн./Вспом. слот."
   },
   {
     "id": "cb_universal_compatibility",
-    "name": "Universal Compatibility",
+    "name": "Универсальная Совместимость",
     "source": "GMS",
-    "effect": "Any time you spend CP to activate a Core System, you may also take a free action to restore all HP, cool all Heat, and roll 1d20: on 20, regain 1 CP.",
-    "description": "The Everest is everywhere: so are the parts you need for a field repair."
+    "effect": "Каждый раз, когда вы тратите МЯ на активацию Системы Ядра, вы также можете совершить свободное действие, чтобы восстановить все ПЗ, сбросить весь Нагрев и бросить 1d20: при 20 — восстановить 1 МЯ.",
+    "description": "Эверест есть повсюду: как и детали, необходимые для ремонта в полевых условиях."
   },
   {
     "id": "cb_briareos_frame",
-    "name": "Briareos Frame",
+    "name": "Рама Бриарей",
     "source": "IPS-N",
-    "effect": "As long as your mech has no more than 1 Structure, you gain Resistance to all damage. When it’s reduced to 0 HP and 0 Structure, it is not destroyed: instead, you must make a structure damage check each time it takes damage. While in this state, your mech cannot regain HP until you rest or perform a Full Repair, at which point your mech can be repaired normally.",
-    "description": "The Briareos is the newest release in IPS-N’s line of near-fail frame upgrades: templates designed to maximize a mech’s usability before catastrophic failure or the need for a reprint. The Briareos template increases the resilience of inorganic components by supplementing the structure with a superlight frame featuring interwoven layers of IPS-N’s iconic Goliath Weave meshing."
+    "effect": "Пока у вашего меха не более 1 Структуры, вы получаете Сопротивляемость ко всему урону. Когда его ПЗ и Структура уменьшаются до 0, мех не уничтожается: вместо этого вы должны делать проверку структурного урона каждый раз, когда он получает урон. Находясь в этом состоянии, ваш мех не может восстановить ПЗ, пока вы не сделаете перерыв или не выполните Полный Ремонт, после чего вашего меха можно будет отремонтировать обычным образом.",
+    "description": "Бриарей — это новейший релиз в линейке обновлений для рамы ИПС-Н, близкой к пределу: шаблоны, разработанные для максимальной пригодности мехов к использованию до катастрофического отказа или необходимости перепечатки. Шаблон Бриарей повышает устойчивость неорганических компонентов, дополняя структуру сверхлегкой рамой с переплетенными слоями культовой сетки ИПС-Н Плетение Голиафа."
   },
   {
     "id": "cb_fomorian_frame",
-    "name": "Fomorian Frame",
+    "name": "Рама Фомор",
     "source": "IPS-N",
-    "effect": "Increase your mech’s Size by one increment (e.g., from 1/2 to 1, 1 to 2, or 2 to 3) up to a maximum of 3 Size. You can’t be knocked Prone, pulled, or knocked back by smaller characters, regardless of what system or weapon causes the effect.",
-    "description": "The Fomorian is an upscaled version of IPS-N’s stock template that has been adapted to meet the needs of long-haul Cosmopolitans looking for enhanced stability and robust impact protection, both micro- and macro-level.",
+    "effect": "Увеличивайте Размер своего меха на единицу (например, с 1/2 до 1, с 1 до 2 или с 2 до 3) до максимального 3 Размера. Вы не можете быть сбиты с ног, притянуты или отброшены назад персонажами меньшего размера, независимо от того, какая система или оружие вызывает эффект.",
+    "description": "Фомор — это увеличенная версия стандартного образца ИПС-Н, который был адаптирован для удовлетворения потребностей дальнемагистральных космополитов, нуждающихся в повышенной стабильности и надежной защите от ударов как на микро-, так и на макроуровне.",
     "bonuses": [{
       "id": "size",
       "val": 1
@@ -71,10 +71,10 @@
   },
   {
     "id": "cb_gyges_frame",
-    "name": "Gyges Frame",
+    "name": "Рама Гигес",
     "source": "IPS-N",
-    "effect": "You gain +1 Accuracy on all Hull checks and saves and +1 Threat with all melee weapons.",
-    "description": "A mech built on the Gyges template is designed for combat – enhanced with finely tuned stabilizers and a robust suite of targeting software and hardware.",
+    "effect": "Вы получаете +1 Точность ко всем проверкам и спасброскам Корпуса и +1 Угрозы всем видам оружия ближнего боя.",
+    "description": "Мех, построенный на основе образца Гигес, предназначен для боевых действий — он оснащен точно настроенными стабилизаторами и надежным набором программного и аппаратного обеспечения для прицеливания.",
     "bonuses": [{
           "id": "range",
           "weapon_types": ["Melee"],
@@ -83,15 +83,15 @@
     }],
     "synergies": [{
       "locations": ["hull"],
-      "detail": "+1 Accuracy on all Hull checks and saves"
+      "detail": "+1 Точность ко всем проверкам и спасброскам Корпуса."
     }]
   },
   {
     "id": "cb_reinforced_frame",
-    "name": "Reinforced Frame",
+    "name": "Усиленная Рама",
     "source": "IPS-N",
-    "effect": "You gain +5 HP.",
-    "description": "The addition of redundant shock-absorption systems increases the survivability of pilots in combat, flight, and industrial situations.",
+    "effect": "Вы получаете +5 ПЗ.",
+    "description": "Добавление дублирующих амортизационных систем повышает выживаемость пилотов в боевых, полетных и производственных ситуациях.",
     "bonuses": [{
       "id": "hp",
       "val": 5
@@ -99,10 +99,10 @@
   },
   {
     "id": "cb_sloped_plating",
-    "name": "Sloped Plating",
+    "name": "Наклонное Покрытие",
     "source": "IPS-N",
-    "effect": "You gain +1 Armor, up to the maximum (+4).",
-    "description": "A common choice among pilots with the right licenses, IPS-N’s integrated-armor fabrication reduces gaps in external coverage by a significant percentage.",
+    "effect": "Вы получаете +1 Брони, вплоть до максимума (+4).",
+    "description": "Интегрированное изготовление брони ИПС-Н является распространенным выбором среди пилотов с соответствующими лицензиями и сокращает пробелы во внешнем покрытии на значительный процент.",
     "bonuses": [{
       "id": "armor",
       "val": 1
@@ -110,32 +110,32 @@
   },
   {
     "id": "cb_titanomachy_mesh",
-    "name": "Titanomachy Mesh",
+    "name": "Титаномахическая Сетка",
     "source": "IPS-N",
-    "effect": "1/round, when you successfully Ram or Grapple a mech, you can Ram or Grapple again as a free action. Additionally, when you knock targets back with melee attacks, you knock them back 1 additional space.",
-    "description": "A double overlay of Goliath Weave at key stress points and beefed-up specifications across the board greatly improve the baseline functionality of any mech.",
+    "effect": "1/раунд, когда вы успешно Тараните или Хватаете меха, вы можете снова Таранить или Хватать в качестве свободного действия. Кроме того, когда вы отбрасываете цели назад ближними атаками, вы отбрасываете их назад еще на 1 пространство.",
+    "description": "Двойное наложение Плетения Голиафа в ключевых точках нагрузки и улучшенные характеристики по всем направлениям значительно улучшают базовую функциональность любого меха.",
     "synergies": [{
       "locations": ["ram", "grapple"],
-      "detail": "1/round, when you successfully Ram or Grapple a mech, you can Ram or Grapple again as a free action."
+      "detail": "1/раунд, когда вы успешно Тараните или Хватаете меха, вы можете снова Таранить или Хватать в качестве свободного действия."
     }]
   },
   {
     "id": "cb_all_theater_movement_suite",
-    "name": "All-Theater Movement Suite",
+    "name": "Всетеатральный Набор Передвижения",
     "source": "SSC",
-    "effect": "You may choose to count any and all of your movement as flying; however, you take 1 Heat at the end of each of your turns in which you fly this way.",
-    "description": "A popular modification, ATMS adds powerful pulse jets that dramatically improve mech mobility in all theaters.",
+    "effect": "Вы можете летать при Ускорении или стандартном перемещении; тем не менее, вы получаете 1 Нагрев в конце каждого своего хода, в котором вы летите таким образом.",
+    "description": "Популярная модификация ВТНП добавляет мощные импульсные струи, которые значительно улучшают мобильность мехов на всех театрах военных действий.",
     "synergies": [{
       "locations": ["move"],
-      "detail": "You may choose to count any and all of your movement as flying; however, you take 1 Heat at the end of each of your turns in which you fly this way."
+      "detail": "Вы можете летать при Ускорении или стандартном перемещении; тем не менее, вы получаете 1 Нагрев в конце каждого своего хода, в котором вы летите таким образом."
     }]
   },
   {
     "id": "cb_full_subjectivity_sync",
-    "name": "Full Subjectivity Sync",
+    "name": "Полная Субъективная Синхронизация",
     "source": "SSC",
-    "effect": "You gain +2 Evasion.",
-    "description": "By creating a stable, two-way ontologic bridge, SSC has removed the need for pilots to rely on physical controls alone to pilot their mech. Using a full subjectivity sync, pilots perceive their mech as their own body and control it via neural impulse; somatosensory feedback is translated to the pilot as well, so caution is advised despite nociception-dampening defaults built-in to the system.",
+    "effect": "Вы получаете +2 Уклонения.",
+    "description": "Создав стабильный двусторонний онтологический мост, СШК избавила пилотов от необходимости полагаться только на физическое управление своим мехом. Используя полную субъективную синхронизацию, пилоты воспринимают своего меха как собственное тело и управляют им с помощью нейронных импульсов; соматосенсорная обратная связь также передается пилоту, поэтому рекомендуется соблюдать осторожность, даже несмотря на встроенные в систему настройки по умолчанию, подавляющие ноцицепцию.",
     "bonuses": [{
       "id": "evasion",
       "val": 2
@@ -143,42 +143,42 @@
   },
   {
     "id": "cb_ghostweave",
-    "name": "Ghostweave",
+    "name": "Призрачная Ткань",
     "source": "SSC",
-    "effect": "During your turn, you are Invisible. If you take no actions on your turn other than your standard move, Hide, and Boost, you remain Invisible until the start of your next turn. You immediately cease to be Invisible when you take a reaction.",
-    "description": "An upscaled version of the same systems found in SSC’s Mythimna Panoply, Ghostweave is a proprietary appliqué used to enhance mech camouflage in all environments."
+    "effect": "Во время вашего хода вы становитесь Невидимым. Если в свой ход вы не совершаете никаких действий, кроме стандартного перемещения, Скрытности и Ускорения, вы остаетесь Невидимым до начала своего следующего хода. Вы немедленно перестаете быть Невидимым, использовав реакции.",
+    "description": "Усовершенствованная версия тех же систем, что и в Митимна Панопли от СШК, Призрачная ткань — это запатентованная аппликация, используемая для улучшения маскировки мехов в любых условиях."
   },
   {
     "id": "cb_integrated_nerveweave",
-    "name": "Integrated Nerveweave",
+    "name": "Интегрированное Нервное Сплетение",
     "source": "SSC",
-    "effect": "You may move an additional 2 spaces when you Boost.",
-    "description": "Integrated nerveweave combines several technologies to grant total battlefield alacrity, assuring pilots are never left behind.",
+    "effect": "Вы перемещаетесь на +2 пространства, когда Ускоряетесь.",
+    "description": "Интегрированное нервное сплетение сочетает в себе несколько технологий, обеспечивающих полную боевую готовность, гарантируя, что пилоты никогда не останутся позади.",
     "synergies": [{
       "locations": ["move", "boost"],
-      "detail": "You may move an additional 2 spaces when you Boost."
+      "detail": "Вы перемещаетесь на +2 пространства, когда Ускоряетесь."
     }]
   },
   {
     "id": "cb_kai_bioplating",
-    "name": "Kai Bioplating",
+    "name": "Биопокрытие Кай",
     "source": "SSC",
-    "effect": "You gain +1 Accuracy on all Agility checks and saves; additionally, you climb and swim at normal speed, ignore difficult terrain, and when making a standard move, can jump horizontally up to your full Speed and upwards up to half your Speed  (in any combination).",
-    "description": "Adapted from fauna local to SSC’s home system, Kai Bioplating adds a lamellar layer of insulated, anchored, and chitinous plating over key brush-points on a mech. Essentially a cheaper, more feasible alternative to living metal, bioplating allows for faster movement through hard-to-navigate terrain.",
+    "effect": "Вы получаете +1 Точность ко всем проверкам и спасброскам Маневренности; кроме того, вы карабкаетесь и плывете с нормальной скоростью, игнорируете труднопроходимую местность и при стандартном перемещении можете прыгать горизонтально на полной Скорости и вверх в половину от своей Скорости (в любой комбинации).",
+    "description": "Биопокрытие Кай, адаптированное из фауны, обитающей в родной системе СШК, добавляет пластинчатый слой изолированного, закрепленного и хитинового покрытия на ключевые точки кисти на мехе. По сути, являясь более дешевой и доступной альтернативой живому металлу, биопокрытие позволяет быстрее передвигаться по труднопроходимой местности.",
     "synergies": [{
       "locations": ["agility"],
-      "detail": "+1 Accuracy on all Agility checks and saves"
+      "detail": "Вы получаете +1 Точность ко всем проверкам и спасброскам Маневренности."
     }, {
       "locations": ["move"],
-      "detail": "You climb and swim at normal speed, ignore difficult terrain, and when making a standard move, can jump horizontally up to your full Speed and upwards up to half your Speed  (in any combination)."
+      "detail": "Вы карабкаетесь и плывете с нормальной скоростью, игнорируете труднопроходимую местность и при стандартном перемещении можете прыгать горизонтально на полной Скорости и вверх в половину от своей Скорости (в любой комбинации)."
     }]
   },
   {
     "id": "cb_neurolink_targeting",
-    "name": "Neurolink Targeting",
+    "name": "Наводящийся Нейролинк",
     "source": "SSC",
-    "effect": "Your ranged weapons gain +3 Range.",
-    "description": "To further reduce the information gap between pilot and machine and complement its full subjectivity sync technology, SSC developed neurolinking, a stable, non-invasive, and limited-transfer ontologic bridge. Neurolink targeting is a simple enhancement that helps pilots feel – as opposed to thinking – when engaged in ranged combat, allowing for a more natural expression of pilot ability.",
+    "effect": "Ваше оружие дальнего боя получает +3 Дальности.",
+    "description": "Чтобы еще больше сократить информационный разрыв между пилотом и машиной и дополнить свою технологию субъективной синхронизации, СШК разработала нейролинк — стабильный, неинвазивный онтологический мост с ограниченной передачей — это простое усовершенствование, которое помогает пилотам чувствовать, Наводящийся Нейролинк — позволяет пилотам чувствовать, а не думать во время участия в дальнем бою, позволяя более естественно проявлять способности пилота.",
     "bonuses": [{
       "id": "range",
       "range_types": ["Range"],
@@ -187,26 +187,26 @@
   },
   {
     "id": "cb_the_lesson_of_disbelief",
-    "name": "The Lesson of Disbelief",
+    "name": "Урок Неверия",
     "source": "HORUS",
-    "effect": "You gain +1 accuracy on Systems checks and saves, and +2 E-Defense.",
-    "description": "Query the omninet, delve into the archives. Find you the Aeneid, find you the age of Titanomachy. Eat, absorb, mull. Tell me now of the Hecatoncheires, they of the hundred hands. Did they strike the blow against Cronus – Saturno – or did they instead assail the Olympians? Who do you believe? Who stopped the Beast from telling its own story? And why? – “Lesson One”, The Six Lessons of Kilo Nueve.",
+    "effect": "Вы получаете +1 Точность к проверкам и спасброскам Систем и +2 к Э-Защите.",
+    "description": "Запросите омнинет, загляните в архивы. Найдите \"Энеиду\", найдите эпоху Титаномахии. Ешь, поглощай, размышляй. Расскажи мне теперь о Гекатонхейрах, о сотне рук. Нанесли ли они удар по Кроносу — Сатурну — или вместо этого напали на олимпийцев? Кому ты веришь? Кто помешал Зверю рассказать свою историю? И почему? – «Урок Первый», Шесть уроков Кило Нуэв.",
     "bonuses": [{
       "id": "edef",
       "val": 2
     }],
     "synergies": [{
         "locations": ["systems"],
-        "detail": "+1 Accuracy on on Systems checks and saves"
+        "detail": "+1 Точность к проверкам и спасброскам Систем."
       }
     ]
   },
   {
     "id": "cb_the_lesson_of_the_open_door",
-    "name": "The Lesson of the Open Door",
+    "name": "Урок Открытой Двери",
     "source": "HORUS",
-    "effect": "Your Save Target increases by +2; additionally, 1/round, when a character fails a save against you, they take 2 heat.",
-    "description": "There is a body and a deep pit, and both are named Tartarus. Once it held kings and titans and myths. Now, the gates that held it back are flung wide, and Tartarus is free. Here is the terrible question: who opened it, and why? – “Lesson Two”, The Six Lessons of Kilo Nueve.",
+    "effect": "Ваш Спасбросок Цели увеличивается на +2; кроме того, 1/раунд, когда персонаж проваливает спасбросок против вас, он получает 2 Нагрева.",
+    "description": "Там есть тело и глубокая яма, и обе они носят имя Тартар. Когда-то он вмещал королей, титанов и мифы. Теперь врата, сдерживавшие его, распахнуты, и Тартар свободен. Вот страшный вопрос: кто и зачем их открыл? – «Урок Второй», Шесть уроков Кило Нуэв.",
     "bonuses": [{
       "id": "save",
       "val": 2
@@ -214,44 +214,44 @@
   },
   {
     "id": "cb_the_lesson_of_the_held_image",
-    "name": "The Lesson of the Held Image",
+    "name": "Урок Удерживаемого Образа",
     "source": "HORUS",
-    "effect": "1/round, as a reaction at the start of any allied character’s turn, you may make a Lock On tech action against any character within line of sight and Sensors.",
-    "description": "Close your eyes. Hold the image of your enemy in your mind; imagine it in all light and from every angle. In your mind, it has become a more perfect version. Crush it in your mind and kill the perfect thing. Open your eyes. – “Lesson Three”, The Six Lessons of Kilo Nueve.",
+    "effect": "1/раунд, в качестве реакции в начале хода любого союзного персонажа, вы можете совершить техническое действие Захвата против любого персонажа в пределах прямой видимости и Сенсоров.",
+    "description": "Закройте глаза. Удерживайте образ вашего врага в своем сознании; представьте его при любом освещении и под любым углом. В вашем сознании он стал более совершенной версией. Раздавите его в своем сознании и убейте идеальную вещь. Откройте глаза. – «Урок Третий», Шесть уроков Кило Нуэв.",
     "actions": [
       {
-        "name": "Lesson of the Held Image",
+        "name": "Урок Удерживаемого Образа",
         "activation": "Reaction",
-        "frequency": "1/round",
-        "trigger": "Any allied character starts their turn",
-        "detail": "Make a Lock On tech action against any character within line of sight and Sensors."
+        "frequency": "1/раунд",
+        "trigger": "Союзный персонаж начинает свой ход.",
+        "detail": "Совершить техническое действие Захвата против любого персонажа в пределах прямой видимости и Сенсоров."
       }
     ]
   },
   {
     "id": "cb_the_lesson_of_thinking_tomorrows_thought",
-    "name": "The Lesson of Thinking-Tomorrow’s-Thought",
+    "name": "Урок Мышления - Мысль Завтрашнего Дня",
     "source": "HORUS",
-    "effect": "When you hit with a tech attack, your next melee attack against the same target gains +1 accuracy, and its damage can’t be reduced in any way.",
-    "description": "Let me tell you this lesson: the corporeal existence is one that must end in death. The incorporeal existence is one that [must] end in [cascade? do you really think that is true?]. I tell you again, if you can imagine it, it is [done] and you have already struck the killing blow. – “Lesson Four”, The Six Lessons of Kilo Nueve.",
+    "effect": "Когда вы наносите удар технической атакой, ваша следующая ближняя атака по той же цели получает +1 Точность, и ее урон не может быть уменьшен никаким образом.",
+    "description": "Позвольте мне преподать вам урок: телесное существование — это существование, которое [должно] закончиться смертью. Бесплотное существование — это существование, которое заканчивается [каскадом? Вы действительно думаете, что это правда?]. Я говорю вам еще раз: если вы можете себе это представить, то это уже [сделано], и вы [как раз] нанесли убийственный удар. – «Урок Четвертый», Шесть уроков Кило Нуэв.",
     "synergies": [{
       "locations": ["tech_attack"],
-      "detail": "When you hit with a tech attack, your next melee attack against the same target gains +1 accuracy, and its damage can’t be reduced in any way."
+      "detail": "Когда вы наносите удар технической атакой, ваша следующая ближняя атака по той же цели получает +1 Точность, и ее урон не может быть уменьшен никаким образом."
     }]
   },
   {
     "id": "cb_the_lesson_of_transubstantiation",
-    "name": "The Lesson of Transubstantiation",
+    "name": "Урок Пресуществления",
     "source": "HORUS",
-    "effect": "Any time you take structure damage, you disappear into a non-space and cease to be a valid target. You reappear in the same space at the start of your next turn. If that space is occupied, you reappear in the nearest available free space (chosen by you).",
-    "description": "Through ecstatic repetition, you may see the face of God. Speak until your tongue dries and rattles to dust, and your body becomes nothing. When you are nothing and the wind takes you, you are in all things, never to be destroyed, only divided, until time's end. – “Lesson Five”, The Six Lessons of Kilo Nueve."
+    "effect": "Каждый раз, когда вы получаете структурный урон, вы исчезаете в не-пространстве и перестаете быть действительной целью. Вы снова появляетесь в том же месте в начале вашего следующего хода. Если это место занято, вы появляетесь в ближайшем свободном месте (выбранном вами).",
+    "description": "Через экстатическое повторение вы можете увидеть лицо Бога. Говорите, пока ваш язык не высохнет и не рассыплется в прах, а ваше тело не превратится в ничто. Когда вы станете прахом и ветер унесет вас, вы будете во всех вещах, никогда не уничтоженным, только разделенным, до конца времен. – «Урок Пятый», Шесть уроков Кило Нуэв."
   },
   {
     "id": "cb_the_lesson_of_shaping",
-    "name": "The Lesson of Shaping",
+    "name": "Урок Формирования",
     "source": "HORUS",
-    "effect": "You may install an additional AI in your mech. If one enters cascade (or becomes unshackled narratively), the other prevents it from taking control of your mech. You only lose control of your mech if both AI-tagged systems or equipment enter cascade.",
-    "description": "A little gift, to be pondered until understood: Cast aside the hammer and sword, the cannon and beam. No weapon formed against me shall land a true blow, as I have seen all ends, and there is nothing left but me. A trillion trillion light-years in all directions, and through it all, only [us? who knows. ego is a mind-killer. best to call your friends. better to face the night together. ‘til later, love.] – “Lesson Six”, The Six Lessons of Kilo Nueve.",
+    "effect": "Вы можете установить дополнительный ИИ в своего меха. Если один из них переходит в каскад (или становится неподвластным повествованию), другой не позволяет ему взять контроль над вашим мехом. Вы теряете контроль над своим мехом, только если обе системы или оборудование с метками ИИ входят в каскад.",
+    "description": "Маленький подарок, над которым нужно подумать, пока не поймете: Отбросьте молот и меч, пушку и бревно. Никакое оружие, созданное против меня, не сможет нанести настоящий удар, поскольку я видел все исходы, и не осталось ничего, кроме меня. Триллион триллионов световых лет во всех направлениях, и через все это, только [мы? кто знает, что эго — убийца разума. лучше позвать друзей. лучше встретить ночь вместе. до скорого, люблю.] – «Урок Шестой», Шесть уроков Кило Нуэв.",
     "bonuses": [
       {
         "id": "ai_cap",
@@ -261,10 +261,10 @@
   },
   {
     "id": "cb_adaptive_reactor",
-    "name": "Adaptive Reactor",
+    "name": "Адаптивный Реактор",
     "source": "HA",
-    "effect": "When you Stabilize and choose to cool your mech, you may spend 2 Repairs to clear 1 stress damage.",
-    "description": "All Armory frames are designed with multiple failsafe systems, but VIP clients and high-tier citizenry have access to a special catalog. With dozens of options for over-engineering reactors, it’s easy to make sure a mech can keep running indefinitely.",
+    "effect": "Когда вы Стабилизируетесь и решаете охладить своего меха, вы можете потратить 2 Ремонта, чтобы снять 1 нагрузочный урон.",
+    "description": "Все рамы Оружейной палаты разработаны с несколькими отказоустойчивыми системами, но VIP-клиенты и граждане высокого уровня имеют доступ к специальному каталогу. С десятками вариантов перестройки реакторов легко убедиться, что мехи могут работать бесконечно.",
     "bonuses": [{
       "id": "cheap_stress",
       "val": true
@@ -272,25 +272,25 @@
   },
   {
     "id": "cb_armory_sculpted_chassis",
-    "name": "Armory-Sculpted Chassis",
+    "name": "Скульпт Шасси От Оружейной Палаты",
     "source": "HA",
-    "effect": "You gain +1 accuracy on all Engineering checks and saves. When you Overcharge, you gain soft cover until the start of your next turn.",
-    "description": "Anyone can print a stock mech chassis, relying on a section of generic code to keep them alive. The discerning pilot, on the other hand, accepts only the best: a frame designed, tested, and tuned by one of the Armory’s master fabricators.",
+    "effect": "Вы получаете +1 Точность на все проверки и спасброски Инженерии. Когда вы Перегружаетесь, вы получаете мягкое укрытие до начала вашего следующего хода.",
+    "description": "Любой может распечатать стандартное шасси меха, полагаясь на раздел общего кода, чтобы поддерживать его в рабочем состоянии. Проницательный пилот, с другой стороны, принимает только лучшее: раму, разработанную, протестированную и настроенную одним из мастеров-изготовителей Оружейной палаты.",
     "synergies": [{
       "locations": ["engineering"],
-      "detail": "Gain +1 Accuracy on all Engineering checks and saves."
+      "detail": "Вы получаете +1 Точность на все проверки и спасброски Инженерии."
     }, {
       "locations": ["overcharge"],
-      "detail": "Gain soft cover until the start of your next turn."
+      "detail": "Вы получаете мягкое укрытие до начала вашего следующего хода."
     }
   ]
   },
   {
     "id": "cb_heatfall_coolant_system",
-    "name": "Heatfall Coolant System",
+    "name": "Система Охлаждения Теплового Потока",
     "source": "HA",
-    "effect": "Your cost for Overcharge never goes past 1d6 heat.",
-    "description": "The Heatfall Coolant System comes packaged with a stabilized reactor core; paired together, this combo is guaranteed to keep a mech cool in nearly any environment.",
+    "effect": "Ваш показатель Перегрузки никогда не превышает 1d6 Нагрева.",
+    "description": "Система Охлаждения Теплового Потока поставляется в комплекте со стабилизированной активной зоной реактора; В сочетании друг с другом эта комбинация гарантированно оставит меха охлажденным практически в любой среде.",
     "bonuses": [{
       "id": "overcharge",
       "val": ["1", "1d3", "1d6", "1d6"]
@@ -298,10 +298,10 @@
   },
   {
     "id": "cb_integrated_ammo_feeds",
-    "name": "Integrated Ammo Feeds",
+    "name": "Интегрированная Подача Боеприпасов",
     "source": "HA",
-    "effect": "All Limited systems and weapons gain an additional two charges.",
-    "description": "By streamlining and integrating all automated ordnance-loading modules, Harrison Armory specialists can greatly enhance mechs’ time-to-target minimums. As an added bonus, these upgrades usually result in increased carrying capacity, allowing pilots to field more ordnance than design specifications suggest.",
+    "effect": "Все Ограниченные системы и оружие получают два дополнительных заряда.",
+    "description": "Усовершенствовав и интегрировав все автоматизированные модули загрузки боеприпасов, специалисты Оружейной палаты Харрисона могут значительно улучшить минимальное время выхода мехов на цель. В качестве дополнительного бонуса эти усовершенствования обычно приводят к увеличению грузоподъемности, что позволяет пилотам нести больше боеприпасов, чем предусмотрено проектными спецификациями.",
     "bonuses": [{
       "id": "limited_bonus",
       "val": 2
@@ -309,17 +309,17 @@
   },
   {
     "id": "cb_stasis_shielding",
-    "name": "Stasis Shielding",
+    "name": "Стазисный Щит",
     "source": "HA",
-    "effect": "Whenever you take stress damage, you gain Resistance to all damage until the start of your next turn.",
-    "description": "A Think Tank exercise in extending stasis beyond the capabilities of civilian utility, Harrison Armory’s stasis shielding actively identifies critically stressed inorganic systems and blankets them in unmodulated “Holdfast” stasis, preventing further degradation for a limited period of time until repairs can be made."
+    "effect": "Всякий раз, когда вы получаете нагрузочный урон, вы получаете Сопротивляемость ко всему урону до начала вашего следующего хода.",
+    "description": "Аналитический центр упражняется в расширении стазиса за пределы возможностей гражданского назначения, стазисная защита Оружейной палаты Харрисона активно выявляет критически нагруженные неорганические системы и покрывает их немодулируемым стазисом «Крепкая хватка», предотвращая дальнейшую деградацию на ограниченный период времени, пока не будет произведен ремонт."
   },
   {
     "id": "cb_superior_by_design",
-    "name": "Superior by Design",
+    "name": "Превосходство По Замыслу",
     "source": "HA",
-    "effect": "You gain Immunity to Impaired and gain +2 Heat Cap.",
-    "description": "Even the Armory’s entry-level frames aim to outperform the competition. Thanks to the incredible resources they have at their disposal, Harrison Armory can out-design and out-produce almost any smaller, boutique engineer or fabricator. Where resistance is found, the answer is simple: buy them out, or stamp them out. The Armory’s valued customers benefit from this philosophy of “Superior by Design”, so why should they worry?",
+    "effect": "Вы получаете Невосприимчивость к Ослабленности и получаете +2 Теплового Максимума.",
+    "description": "Даже рамы начального уровня Оружейной палаты стремятся превзойти конкурентов. Благодаря имеющимся в распоряжении невероятным ресурсам, Оружейная палата Харрисона может превзойти в дизайне и производстве почти любого меньшего инженера или производителя. Там, где встречается сопротивление, ответ прост: выкупить их или уничтожить. Ценные клиенты Оружейной палаты пользуются этой философией \"Превосходство по замыслу\", так почему же они должны беспокоиться?",
     "bonuses": [{
       "id": "heatcap",
       "val": 2
