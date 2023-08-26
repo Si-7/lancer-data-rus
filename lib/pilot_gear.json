@@ -2,16 +2,16 @@
     "id": "missing_pilotweapon",
     "name": "ERR: DATA NOT FOUND",
     "type": "Weapon",
-    "description": "COMP/CON is unable to retrieve the data necessary to furnish this Pilot Gear. This is likely the result of a missing or outdated content pack.",
+    "description": "COMP/CON не способен получить данные, необходимые для описания этого Снаряжения Пилота. Скорее всего, это результат отсутствующего или устаревшего контент пака.",
     "tags": [],
     "range": [],
     "damage": []
   },
   {
     "id": "pg_archaic_melee",
-    "name": "Archaic Melee",
+    "name": "Архаичное ОББ",
     "type": "Weapon",
-    "description": "These weapons were made using pre-Union alloys and technology, and might be anything from industrial-era steel swords through to stone axes. While they remain widely used on some worlds, archaic weapons used by pilots are usually relics, heirlooms, or ceremonial weapons.",
+    "description": "Это Оружие Ближнего Боя было изготовлено с использованием сплавов и технологий, существовавших во времена до Союза, и может быть чем угодно — от стальных мечей индустриальной эпохи до каменных топоров. Хотя оно по-прежнему широко используется в некоторых мирах, архаичное оружие, используемое пилотами, обычно является реликвиями, ценностям или церемониальным оружием.",
     "tags": [{
       "id": "tg_archaic"
     }],
@@ -26,9 +26,9 @@
   },
   {
     "id": "pg_archaic_ranged",
-    "name": "Archaic Ranged",
+    "name": "Архаичное ОДБ",
     "type": "Weapon",
-    "description": "These weapons are pre-modern devices like muskets and bows, all of which are still used in some societies.",
+    "description": "Это Оружие Дальнего Боя — устаревшие устройства старых эпох, такие как мушкеты и луки, которые все еще используются в некоторых сообществах.",
     "tags": [{
       "id": "tg_archaic"
     }],
@@ -43,9 +43,9 @@
   },
   {
     "id": "pg_light_a_c",
-    "name": "Light A/C",
+    "name": "Лёгкое С/К",
     "type": "Weapon",
-    "description": "Light A/C weapons might be knives, bayonets, punching daggers, and short swords.",
+    "description": "Легкое С/К оружие может быть ножами, штыками, пробивными кинжалами и короткими мечами.",
     "tags": [{
       "id": "tg_sidearm"
     }],
@@ -60,9 +60,9 @@
   },
   {
     "id": "pg_medium_a_c",
-    "name": "Medium A/C",
+    "name": "Среднее С/К",
     "type": "Weapon",
-    "description": "Medium A/C weapons are typically swords, officer’s sabers, and trench axes.",
+    "description": "Среднее С/К — это, как правило, мечи, сабли и окопные топоры.",
     "range": [{
       "type": "Threat",
       "val": 1
@@ -74,9 +74,9 @@
   },
   {
     "id": "pg_heavy_a_c",
-    "name": "Heavy A/C",
+    "name": "Тяжелое С/К",
     "type": "Weapon",
-    "description": "Heavy weapons are designed with the augmented strength of hardsuits in mind and include war hammers, mallets, rams, pikes, and heavy two-handed assault swords.",
+    "description": "Тяжелое оружие разработано с учетом повышенной прочности защитных костюмов и включает боевые молоты, молоты, тараны, пики и тяжелые двуручные штурмовые мечи.",
     "tags": [{
       "id": "tg_inaccurate"
     }],
@@ -91,9 +91,9 @@
   },
   {
     "id": "pg_light_signature",
-    "name": "Light Signature",
+    "name": "Легкое Фирменное",
     "type": "Weapon",
-    "description": "Light signature weapons might be oversized revolvers, braces of pistols, and submachine guns.",
+    "description": "Легкое фирменное оружие может представлять собой крупнокалиберные револьверы, скобы пистолетов и пистолеты-пулеметы.",
     "tags": [{
         "id": "tg_sidearm"
       },
@@ -109,13 +109,13 @@
       "type": "variable",
       "val": 1
     }],
-    "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic."
+    "effect": "Приобретая фирменное оружие, выберите его тип урона – Взрывной, Энергетический или Кинетический."
   },
   {
     "id": "pg_medium_signature",
-    "name": "Medium Signature",
+    "name": "Среднее Фирменное",
     "type": "Weapon",
-    "description": "Medium signature weapons are assault rifles, shotguns, pack-fed lasers, or disruption guns.",
+    "description": "Среднее — штурмовые винтовки, дробовики, лазеры на ранцевом питании, разрушительные пушки.",
     "tags": [{
       "id": "tg_set_damage_type"
     }],
@@ -127,13 +127,13 @@
       "type": "variable",
       "val": 2
     }],
-    "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic."
+    "effect": "Приобретая фирменное оружие, выберите его тип урона – Взрывной, Энергетический или Кинетический."
   },
   {
     "id": "pg_heavy_signature",
-    "name": "Heavy Signature",
+    "name": "Тяжелое Фирменное",
     "type": "Weapon",
-    "description": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
+    "description": "Тяжелое — ракетные трубы, тяжелые лазеры, легкий пулемет или экзотические винтовки.",
     "tags": [{
         "id": "tg_ordnance"
       },
@@ -152,19 +152,19 @@
       "type": "variable",
       "val": 4
     }],
-    "effect": "When a signature weapon is acquired, choose its damage type – Explosive, Energy, or Kinetic."
+    "effect": "Приобретая фирменное оружие, выберите его тип урона – Взрывной, Энергетический или Кинетический."
   },
   {
     "id": "missing_pilotarmor",
     "name": "ERR: DATA NOT FOUND",
     "type": "Armor",
-    "description": "COMP/CON is unable to retrieve the data necessary to furnish this Pilot Gear. This is likely the result of a missing or outdated content pack."
+    "description": "COMP/CON не способен получить данные, необходимые для описания этого Снаряжения Пилота. Скорее всего, это результат отсутствующего или устаревшего контент пака."
   },
   {
     "id": "pg_light_hardsuit",
-    "name": "Light Hardsuit",
+    "name": "Лёгкий Скафандр",
     "type": "Armor",
-    "description": "Light hardsuits are usually made from reactive, cloth-like weaves, with limited plating and few powered components to maximize mobility. Like other hardsuits, they can be sealed against vacuum, and protect against a decent amount of radiation and other harmful particles.",
+    "description": "Легкие Скафандры обычно изготавливаются из реактивного, похожего на ткань материала, с ограниченным количеством пластин и небольшим количеством силовых компонентов для обеспечения максимальной мобильности. Как и другие скафандры, они могут быть запечатаны от вакуума и защищают от приличного количества радиации и других вредных частиц.",
     "bonuses": [{
         "id": "pilot_hp",
         "val": 3
@@ -188,9 +188,9 @@
   },
   {
     "id": "pg_assault_hardsuit",
-    "name": "Assault Hardsuit",
+    "name": "Штурмовой Скафандр",
     "type": "Armor",
-    "description": "These hardsuits, common among military units, feature heavier plating than light hardsuits but more mobility than heavy hardsuits. They are powered, augmenting the user’s strength, and typically feature an onboard computer, sensor suite, integrated air, burst EVA system, and waste recycling systems.",
+    "description": "Эти скафандры, распространенные среди военных подразделений, имеют более тяжелое покрытие, чем легкие, но более мобильны, чем тяжелые. Они питаются энергией, увеличивая силу пользователя, и часто оснащены бортовым компьютером, набором датчиков, встроенным воздухом, системой ВКД, а также системами переработки отходов.",
     "bonuses": [{
         "id": "pilot_hp",
         "val": 3
@@ -218,9 +218,9 @@
   },
   {
     "id": "pg_heavy_hardsuit",
-    "name": "Heavy Hardsuit",
+    "name": "Тяжелый Скафандр",
     "type": "Armor",
-    "description": "The heaviest hardsuits. They are always powered and up-armored with thick, composite armor. Heavy hardsuits often feature integrated weapons, powerful mobility suites, and – by augmenting their user’s strength – allow their user to field much heavier weapons than normal infantry can typically carry. Heavy hardsuits are in decline now that half-size chassis are popular, but they are still common among private militaries and middle-tier Diasporan armed forces.",
+    "description": "Самые тяжелые скафандры. Они всегда снабжены источником энергии и бронированы толстой композитной броней. Тяжелые скафандры оснащены интегрированным оружием, мощными мобильными комплексами и, увеличивая силу своего пользователя, позволяют ему использовать гораздо более тяжелое оружие, чем может нести обычная пехота. Сейчас, когда популярны полуразмерные шасси, тяжелые скафандры переживают упадок, но они все еще распространены среди частных вооруженных сил и вооруженных сил диаспоры среднего уровня.",
     "bonuses": [{
         "id": "pilot_hp",
         "val": 3
@@ -248,9 +248,9 @@
   },
   {
     "id": "pg_mobility_hardsuit",
-    "name": "Mobility Hardsuit",
+    "name": "Мобильный Скафандр",
     "type": "Armor",
-    "description": "These hardsuits have integrated flight systems, allowing pilots to fly when they move or Boost. Flying pilots must end their turn on the ground (or another surface) or begin falling.",
+    "description": "В эти скафандры интегрированы системы освещения, позволяющие пилотам двигаться или Ускоряться. Летающие пилоты должны завершить свой ход на земле (или другой поверхности) или начать падать.",
     "bonuses": [{
         "id": "pilot_evasion",
         "val": 10,
@@ -270,9 +270,9 @@
   },
   {
     "id": "pg_stealth_hardsuit",
-    "name": "Stealth Hardsuit",
+    "name": "Стелс-Скафандр",
     "type": "Armor",
-    "description": "As a quick action, pilots wearing stealth hardsuits can become Invisible. They cease to be Invisible if they take any damage.",
+    "description": "В качестве быстрого действия пилоты в стелс-скафандрах могут стать Невидимыми. Они перестают быть Невидимыми, если получают урон.",
     "bonuses": [{
         "id": "pilot_evasion",
         "val": 8,
@@ -290,9 +290,9 @@
       }
     ],
     "actions": [{
-      "name": "Activate Stealth Hardsuit",
-      "activation": "Quick",
-      "detail": "Become Invisible. You will cease to be Invisible if you take any damage.",
+      "name": "Активировать Стелс-Скафандр",
+      "activation": "Быстрое",
+      "detail": "Станьте Невидимым. Вы перестаете быть Невидимым, если получаете урон.",
       "pilot": true
     }]
   },
@@ -300,17 +300,17 @@
     "id": "missing_pilotgear",
     "name": "ERR: DATA NOT FOUND",
     "type": "Gear",
-    "description": "COMP/CON is unable to retrieve the data necessary to furnish this Pilot Gear. This is likely the result of a missing or outdated content pack."
+    "description": "COMP/CON не способен получить данные, необходимые для описания этого Снаряжения Пилота. Скорее всего, это результат отсутствующего или устаревшего контент пака."
   },
   {
     "id": "pg_corrective",
-    "name": "Corrective",
+    "name": "Корректив",
     "type": "Gear",
-    "description": "This clear, plastic-like sheet can be placed over the wounds of severely injured pilots. It instantly begins to stabilize them, injecting medicine and deploying nanites to stitch wounds shut.<br>Expend a charge to apply correctives to Down and Out pilots, immediately bringing them back to consciousness at 1 HP.",
+    "description": "Этот прозрачный, похожий на пластик лист можно накладывать на раны тяжелораненых пилотов. Он мгновенно стабилизирует их состояние, вводит лекарства и наниты для зашивания ран. <br>Потратьте заряд, чтобы применить коррективы на Нокаутированных пилотах, немедленно возвращая их в сознание с 1 ПЗ.",
     "actions": [{
-      "name": "Use Corrective",
-      "activation": "Full",
-      "detail": "Expend a charge to apply correctives to Down and Out pilots, immediately bringing them back to consciousness at 1 HP",
+      "name": "Использовать Корректив",
+      "activation": "Полное Действие",
+      "detail": "Потратьте заряд, чтобы применить коррективы на Нокаутированных пилотах, немедленно возвращая их в сознание с 1 ПЗ.",
       "pilot": true
     }],
     "tags": [{
@@ -320,11 +320,11 @@
   },
   {
     "id": "pg_frag_grenades",
-    "name": "Frag Grenades",
+    "name": "Осколочные Гранаты",
     "type": "Gear",
-    "description": "Expend a charge for the following effect:<ul><li><b>Frag Grenade</b> (Grenade, Range 5, Blast 1): Affected characters must succeed on an Agility save or take 2 Explosive damage.</li></ul>",
+    "description": "Потратьте заряд для следующего эффекта:<ul><li><b>Осколочная Граната</b> (Граната, Дальность 5, Взрыв 1): Затронутые персонажи должны преуспеть в спасброске Маневренности или получить 2 Взрывного урона.</li></ul>",
     "actions": [{
-      "name": "Use Frag Grenade",
+      "name": "Использовать Осколочную Гранату",
       "activation": "Quick",
       "range": [{
           "type": "Range",
@@ -339,7 +339,7 @@
         "type": "Explosive",
         "val": 2
       }],
-      "detail": "Throw a grenade within Range 5. Affected characters withing a Blast 1 must succeed on an Agility save or take 2 Explosive damage.",
+      "detail": "Бросьте гранате в радиусе Дальность 5. Затронутые персонажи должны преуспеть в спасброске Маневренности или получить 2 Взрывного урона.",
       "pilot": true
     }],
     "tags": [{
@@ -353,13 +353,13 @@
   },
   {
     "id": "pg_patch",
-    "name": "Patch",
+    "name": "Патч",
     "type": "Gear",
-    "description": "“Patch” is pilot slang for any kind of modern first aid gear, including sprayable medi-gel and instant-acting medical patches.<br>Expend a charge to apply a patch to either yourself or an adjacent pilot, restoring half their maximum HP. Patches have no effect on Down and Out pilots.",
+    "description": "\"Патч\" — это сленг пилотов для обозначения любого вида современных средств оказания первой помощи, включая распыляемый медигель и пластыри мгновенного действия.<br>Потратьте заряд, чтобы наложить патч на себя или соседнего пилота, восстанавливая половину своего максимального уровня ПЗ. Патчи не оказывают никакого эффекта на Нокаутированных пилотов.",
     "actions": [{
-      "name": "Use Patch",
+      "name": "Использовать Патч",
       "activation": "Full",
-      "detail": "Expend a charge to apply a patch to either yourself or an adjacent pilot, restoring half their maximum HP. Patches have no effect on Down and Out pilots.",
+      "detail": "Потратьте заряд, чтобы наложить патч на себя или соседнего пилота, восстанавливая половину своего максимального уровня ПЗ. Патчи не оказывают никакого эффекта на Нокаутированных пилотов.",
       "pilot": true
     }],
     "tags": [{
@@ -369,13 +369,13 @@
   },
   {
     "id": "pg_stims",
-    "name": "Stims",
+    "name": "Стимы",
     "type": "Gear",
-    "description": "These chemical stimulants are sometimes administered automatically by injectors built into a pilot’s suit, or even implanted within their body. Uncontrolled use can be addictive and dangerous to health in the long-term and is a problem for some pilots.<br>Expend a charge for one of the following effects:<ul><li><b>Kick:</b> Keeps a pilot awake and alert for up to 30 hours.</li><li><b>Freeze:</b> Keeps a pilot calm and emotionally stable; deadens fear and other strong reactions.</li><li><b>Juice:</b> Heighten senses and alertness, reduce fatigue, and shorten reaction times. Juice occasionally provokes rage in some users.</li></ul>",
+    "description": "Эти химические стимуляторы иногда вводятся автоматически с помощью инъекторов, встроенных в костюм пилота или даже имплантированных в его тело. Неконтролируемое употребление может вызвать привыкание и в долгосрочной перспективе опасно для здоровья, что является проблемой для некоторых пилотов.<br>Потратьте заряд на один из следующих эффектов:<ul><li><b>ПИНОК:</b> Держит пилота в бодрствующем состоянии до 30 часов.</li><li><b>ХОЛОДОК:</b>  Сохраняет пилота спокойным и эмоционально стабильным; притупляет страх и другие сильные реакции.</li><li><b>СОК:</b> обостряет чувства и бдительность, снижает усталость и сокращает время реакции. Сок иногда вызывает ярость у некоторых пользователей.</li></ul>",
     "actions": [{
       "name": "Use Stim",
       "activation": "Quick",
-      "detail": "Expend a charge for one of the following effects:<ul><li><b>Kick:</b> Keeps a pilot awake and alert for up to 30 hours.</li><li><b>Freeze:</b> Keeps a pilot calm and emotionally stable; deadens fear and other strong reactions.</li><li><b>Juice:</b> Heighten senses and alertness, reduce fatigue, and shorten reaction times. Juice occasionally provokes rage in some users.</li></ul>",
+      "detail": "Потратьте заряд на один из следующих эффектов:<ul><li><b>ПИНОК:</b> Держит пилота в бодрствующем состоянии до 30 часов.</li><li><b>ХОЛОДОК:</b>  Сохраняет пилота спокойным и эмоционально стабильным; притупляет страх и другие сильные реакции.</li><li><b>СОК:</b> обостряет чувства и бдительность, снижает усталость и сокращает время реакции. Сок иногда вызывает ярость у некоторых пользователей.</li></ul>",
       "pilot": true
     }],
     "tags": [{
@@ -385,18 +385,18 @@
   },
   {
     "id": "pg_thermite_charge",
-    "name": "Thermite Charge",
+    "name": "Термитный Заряд",
     "type": "Gear",
-    "description": "Expend a charge for the following effect:<ul><li><b>Thermite Charge</b> (Mine, Burst 1): This charge must be remotely detonated as a quick action. Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP.</li></ul>",
+    "description": "Потратьте заряд для следующего эффекта: <ul><li><b>Термитный Заряд</b>  (Мина, Взрыв 1): Этот заряд должен быть дистанционно взорван в качестве быстрого действия. Затронутые персонажи должны успешно пройти спасбросок Инженерии или получить 3 ББ Энергетического урона. Тепловые заряды автоматически поражают объекты, нанося 10 ББ Энергетического урона.</li></ul>",
     "deployables": [{
-      "name": "Thermite Charge",
+      "name": "Термитный Заряд",
       "type": "Mine",
-      "detail": "This charge must be remotely detonated as a quick action. Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP.",
+      "detail": "Этот заряд должен быть дистанционно взорван в качестве быстрого действия. Затронутые персонажи должны успешно пройти спасбросок Инженерии или получить 3 ББ Энергетического урона. Тепловые заряды автоматически поражают объекты, нанося 10 ББ Энергетического урона.",
       "pilot": true,
       "actions": [{
-        "name": "Detonate",
+        "name": "Детонировать",
         "activation": "Quick",
-        "detail": "Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP.",
+        "detail": "Затронутые персонажи должны успешно пройти спасбросок Инженерии или получить 3 ББ Энергетического урона. Тепловые заряды автоматически поражают объекты, нанося 10 ББ Энергетического урона.",
         "pilot": true
       }]
     }],
@@ -407,116 +407,116 @@
   },
   {
     "id": "pg_antiphoton_visor",
-    "name": "Antiphoton Visor",
+    "name": "Антифотонный Визор",
     "type": "Gear",
-    "description": "Designed to protect the wearer’s eyes from intense bursts of light, antiphoton visors are commonly found among breach teams and solar-forward operators. They are effective against flash weapons, intense UV light, and incidental charges from energy weapons."
+    "description": "Предназначенные для защиты глаз пользователя от интенсивных вспышек света, антифотонные визоры часто встречаются среди команд прорыва и операторов солнечной энергии. Они эффективны против фотовспышек, интенсивного УФ-излучения и случайных зарядов энергетического оружия."
   },
   {
     "id": "pg_camo_cloth",
-    "name": "Camo Cloth",
+    "name": "Камуфляжная Ткань",
     "type": "Gear",
-    "description": "A square of reactive material that slowly shifts to reflect the surrounding environment, enough to cover a human comfortably. The transition takes about 10 seconds and makes anything hidden underneath very difficult to spot."
+    "description": "Квадрат из реактивного материала, который медленно изменяется в зависимости от окружающей среды. Его достаточно, чтобы покрыть человека. Переход занимает около 10 секунд, после чего спрятанное под ним будет очень трудно обнаружить."
   },
   {
     "id": "pg_dataplating",
-    "name": "Dataplating",
+    "name": "Датаплаты",
     "type": "Gear",
-    "description": "Dataplating is a general term for any comm-linked jewelry, subdermal netting, wearable jaw, brow, or maxillary plates, etc., that allows subvocal communication and persistent heads-up and augmented reality displays without wearing a helm. Dataplates can quickly translate nearly any language, and allow users to communicate with each other all but silently."
+    "description": "Датаплаты — это общий термин для любых коммуникативных украшений — подкожных сеток, челюстных, надбровных или верхнечелюстных пластин и т.д., которые обеспечивают субвокальную связь и постоянное отображение информации в голове и в дополненной реальности без ношения шлема. Датаплаты могут быстро перевести практически любой язык и позволяют пользователям общаться друг с другом практически беззвучно."
   },
   {
     "id": "pg_extra_rations",
-    "name": "Extra Rations",
+    "name": "Дополнительные Пайки",
     "type": "Gear",
-    "description": "Pilot rations aren’t much better than their nautical forerunners – both are variants on hardtack and nutrient paste. Pilots often carry a stash of extra food, or luxuries like chocolate, coffee, alcohol, or preserved goods from their homeworld. These rations can be used to barter or boost morale."
+    "description": "Рационы пилотов не намного лучше, чем у их предшественников мореплавателей — и те, и другие представляют собой разновидности галет и питательной пасты. Пилоты часто берут с собой запас дополнительной пищи или предметы роскоши, такие как шоколад, кофе, алкоголь или консервы со своей родной планеты. Эти пайки можно использовать для обмена или поднятия боевого духа."
   },
   {
     "id": "pg_flexsuit",
-    "name": "Flexsuit",
+    "name": "Флекс-скафандр",
     "type": "Gear",
-    "description": "A strong base-layer suit that recycles water, generates nutrients, and adapts very rapidly to hostile environs, maintaining a stable condition and extending survivability. Flexsuit wearers can go for roughly a week without eating or drink thanks to the ambrosia paste generated by their suit before its systems are depleted; however, they don’t prevent feelings of hunger. Removing the suit for a day or two is enough to replenish its reserves. Flexsuits also maintain a steady temperature within acceptable parameters."
+    "description": "Прочный базовый скафандр, который перерабатывает воду, генерирует питательные вещества и очень быстро адаптируется к враждебному окружению, поддерживая стабильное состояние и продлевая выживаемость. Носители Флекс-скафандра могут не есть и не пить около недели благодаря амброзийной пасте, вырабатываемой скафандр, прежде чем его системы истощатся; однако он не предотвращает чувство голода. Достаточно снять скафандр на день или два, чтобы восполнить его запасы. Флекс-скафандры также поддерживают постоянную температуру в пределах допустимых параметров."
   },
   {
     "id": "pg_handheld_printer",
-    "name": "Handheld Printer",
+    "name": "Портативный Принтер",
     "type": "Gear",
-    "description": "A miniaturized version of Union’s full-scale printers, handheld printers can be used to make simple objects out of flexible and durable plastic – as long as you have the right pattern chip."
+    "description": "Миниатюрная версия полномасштабных принтеров Союза, портативные принтеры могут использоваться для изготовления простых предметов из гибкого и прочного пластика — при условии, что у вас есть нужный паттерн-чип."
   },
   {
     "id": "pg_subjectivity_enhancement_suite",
-    "name": "Subjectivity-Enhancement Suite",
+    "name": "Набор для Усиления Субъективности",
     "type": "Gear",
-    "description": "A subjectivity-enhancement suite is a set of cybernetic implants allowing users to hack systems without a rig. Users of these suites blend the organic with the synthetic, gaining the ability to extrude implanted universal-plug cables from within their body to make hardline connections with terminals. When plugged in, users can access a comprehensive, fully interactive alternate-reality interface with direct omninet access, making navigating – or hacking – local and networked systems as easy as wishing it so (of course, you must be careful: by opening up your mind to the digital, you may face dangers other, less enhanced people are ignorant of)."
+    "description": "Набор для усиления субъективности — это набор кибернетических имплантатов, позволяющих пользователям взламывать системы без специального оборудования. Пользователи этих комплектов смешивают органическое с синтетическим, получая возможность вытягивать имплантированные кабели с универсальными штекерами из своего тела для создания жестких соединений с терминалами. Подключившись к терминалам, пользователь получает доступ к обширному, полностью интерактивному интерфейсу альтернативной реальности с прямым доступом к омнинету, что делает навигацию — или взлом — локальных и сетевых систем таким же простым, как и желание (конечно, вы должны быть осторожны: открыв свой разум для цифровых технологий, вы можете столкнуться с опасностями, о которых другие, менее совершенные люди не знают)."
   },
   {
     "id": "pg_infoskin",
-    "name": "Infoskin",
+    "name": "Инфокожа",
     "type": "Gear",
-    "description": "A reactive, synthetic polymer with advanced qualities, infoskin bonds quickly to real skin and hair. Once applied, it responds to electronic signals delivered by linked software, rapidly changing its color and texture – even contorting and distorting its form – allowing wearers to make minor changes to their appearance. With infoskin, it’s a simple matter to alter facial features, hair color, or makeup patterns."
+    "description": "Реактивный синтетический полимер с улучшенными свойствами, инфокожа быстро сцепляется с настоящей кожей и волосами. После нанесения она реагирует на электронные сигналы, передаваемые связанным программным обеспечением, быстро меняет цвет и текстуру, даже деформируется и искажает форму, позволяя владельцам вносить незначительные изменения в свой внешний вид. С помощью инфокожи можно легко изменить черты лица, цвет волос или макияж."
   },
   {
     "id": "pg_mag_clamps",
-    "name": "Mag-Clamps",
+    "name": "Магнитные Зажимы",
     "type": "Gear",
-    "description": "These clamps attach easily to any metal surface, enhancing maneuverability in zero-g environments or when repairing mechs. They can be carried or fitted to boots."
+    "description": "Эти зажимы легко крепятся к любой металлической поверхности, повышая маневренность в условиях невесомости или при ремонте мехов. Их можно носить с собой или пристегивать к ботинкам."
   },
   {
     "id": "pg_nanite_spray",
-    "name": "Nanite Spray",
+    "name": "Нанитный Спрей",
     "type": "Gear",
-    "description": "A spray paint that can be applied to any surface. Nanite spray is invisible to the naked eye but able to transmit simple messages or small data packets when scanned."
+    "description": "Краска в виде спрея, которую можно наносить на любую поверхность. Нанитовый спрей невидим невооруженным глазом, но способен передавать простые сообщения или небольшие пакеты данных при сканировании."
   },
   {
     "id": "pg_omnihook",
-    "name": "Omnihook",
+    "name": "Омнихук",
     "type": "Gear",
-    "description": "A portable – if bulky – omninet terminal that allows for communication, data transfer, and limited hot-spotting. Omnihooks are extremely valuable, although most mech squads have at least one. Tuning an omnihook requires a high level of skill, so they are usually mounted or carried by designated operators."
+    "description": "Портативный — хотя и громоздкий — омнинет-терминал, позволяющий осуществлять связь, передачу данных и ограниченный хотспот. Омнихуки чрезвычайно ценны, поэтому большинство отрядов мехов имеют хотя бы один. Настройка омнихука требует высокого уровня мастерства, поэтому их обычно устанавливают или носят с собой специально назначенные операторы."
   },
   {
     "id": "pg_personal_drone",
-    "name": "Personal Drone",
+    "name": "Персональный Дрон",
     "type": "Gear",
-    "description": "Small, non-combat drones are a common sight in the field. They’re fairly noisy but can fly about half a mile with good maneuverability before losing signal, relaying audio and visual information as they go."
+    "description": "Небольшие небоевые дроны — обычное явление в полевых условиях. Они довольно шумные, но могут пролететь около полумили с хорошей маневренностью, прежде чем потеряют сигнал. Передают звуковую и визуальную информацию по ходу движения."
   },
   {
     "id": "pg_prosocollar",
-    "name": "Prosocollar",
+    "name": "Просоколляр",
     "type": "Gear",
-    "description": "A collar-like device that fits snugly around its wearer’s neck, projecting a holographic image over their face and head. Prosocollars can change their wearer’s voice and scramble or change their appearance. The projection won’t stand up to close inspection, but it can easily fool electronic systems and distant observers."
+    "description": "Устройство, напоминающее ошейник, плотно прилегает к шее владельца, проецируя голографическое изображение на его лицо и голову. Просоколляры могут изменять голос своего владельца, а также изменять его внешность. Проекция не выдерживает тщательного осмотра, но она может легко обмануть электронные системы и удаленных наблюдателей."
   },
   {
     "id": "pg_smart_scope",
-    "name": "Smart Scope",
+    "name": "Умный Прицел",
     "type": "Gear",
-    "description": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting."
+    "description": "Мощный электронный прицел, обеспечивающий увеличение с высоким разрешением до двух миль и автоматически корректирующий сетку в зависимости от ветра, гравитации и давления. Умные прицелы могут проецировать свое поле зрения и все данные на Проекционный Дисплей любого пользователя, подключенного к сети. Они также могут работать в паре с другими тепловизионными, оптическими или имитационными приборами для дальнейшего улучшения прицеливания."
   },
   {
     "id": "pg_sleeping_bag",
-    "name": "Sleeping Bag",
+    "name": "Спальный Мешок",
     "type": "Gear",
-    "description": "Coming in a variety of sizes, sleeping bags are a field necessity. They’re designed to fold out from a hardsuit, fit within a mech’s cockpit, resist fire and changes in temperature, and – when necessary – seal against vacuum.<br>You can climb into your sleeping bag, gaining Immunity to burn, protection against vacuum, and enough air to last an hour; however, while in the sleeping bag you are Stunned and can’t take actions other than to exit the bag as a full action."
+    "description": "Спальные мешки бывают разных размеров и незаменимы в полевых условиях. Они раскладываются из скафандра, помещаются в кабину меха, противостоят огню и перепадам температуры и, при необходимости, защищают от вакуума. <br>Вы можете забраться в спальный мешок, получив при этом Невосприимчивость к , защиту от вакуума и достаточное количество воздуха, чтобы продержаться час; однако, находясь в спальном мешке, вы Ошеломлены и не можете предпринимать никаких действий, кроме выхода из мешка в качестве полного действия."
   },
   {
     "id": "pg_ssc_sylph_undersuit",
-    "name": "SSC Sylph Undersuit",
+    "name": "СШК Сильф-комбинезон",
     "type": "Gear",
-    "description": "Discovered on Acrimea IV, a biome cultivar world controlled by Smith-Shimano Corpro (SSC), the sylph is an organic lifeform that can seemingly survive in nearly any environment. Using breeding-analogous methods defined by established bioengineering doctrines, SSC developed the sylph undersuit – sterile, living sylphs grown as envelopes and fitted to their owners. The sylph bonds to its wearer, forming a symbiotic relationship: the sylph is sustained by the host’s waste products, in return protecting the host from a range of hostile environmental factors.<br>These semi-biological, skin-tight undersuits can be worn for extended periods. They are translucent, semi-liquid, and able to be stored when not in use, conforming to whatever container they are placed in. They clean the host’s body, aid natural healing processes, and eliminate waste. As desired, segments can become opaque, change color, or take on a new texture. Sylph undersuits can cover the host’s head, sealing against vacuum, providing protection against radiation, and filtering air or liquids, even providing the ability to breathe water for a limited time."
+    "description": "Сильф был обнаружен на Акримее IV, биоме культивируемого мира, контролируемого Смит-Шимано Корпо (СШК), и представляет собой органическую форму жизни, которая может выжить практически в любой среде. Используя методы селекции, аналогичные установленным доктринам биоинженерии, СШК разработала скафандр сильфа — стерильных, живых сильфов, выращенных в виде оболочек и приспособленных к своим владельцам. Сильф соединяется со своим владельцем, образуя симбиотические отношения: сильф поддерживается отходами жизнедеятельности хозяина, в свою очередь защищая его от ряда враждебных факторов окружающей среды.<br>Эти полубиологические, облегающие кожу комбинезоны можно носить в течение длительного времени. Они полупрозрачные, полужидкие и могут храниться в любом контейнере. Они очищают тело хозяина, помогают естественным процессам заживления и выводят отходы. По желанию сегменты могут становиться непрозрачными, менять цвет или приобретать новую текстуру. Сильф-комбинезон может покрывать голову носителя, изолируя от вакуума, обеспечивая защиту от радиации и фильтруя воздух или жидкости, даже давая возможность дышать под водой в течение ограниченного времени."
   },
   {
     "id": "pg_sound_system",
-    "name": "Sound System",
+    "name": "Акустическая Система",
     "type": "Gear",
-    "description": "Though their tactical utility is questionable, many pilots set up internal speaker systems in their cockpits. This gives them a clear line to their compatriots during combat, along with the ability to play music."
+    "description": "Хотя их тактическая польза сомнительна, многие пилоты устанавливают в своих кабинах внутренние акустические системы. Это дает им четкую связь с соотечественниками во время боя, а также возможность слушать музыку."
   },
   {
     "id": "pg_tertiary_arm",
-    "name": "Tertiary Arm",
+    "name": "Третичная Рука",
     "type": "Gear",
-    "description": "A powered third arm mounted on a bracket on the hardsuit. Tertiary arms are powered and controlled using the same neural bridge processes that allow hardsuits to respond to user input. They can be equipped with manipulators to allow for fine motor control, weapons to enhance combat efficacy, or specialty tools."
+    "description": "Механизированная третья рука, закрепленная на скобе скафандра. Третичные руки питаются и управляются с помощью тех же процессов нейронного моста, которые позволяют скафандрам реагировать на действия пользователя.Они могут быть снабжены манипуляторами для управления мелкой моторикой, оружием для повышения боевой эффективности или специальными инструментами."
   },
   {
     "id": "pg_wilderness_survival_kit",
-    "name": "Wilderness Survival Kit",
+    "name": "Набор для Выживания ",
     "type": "Gear",
-    "description": "This kit contains many essentials for surviving in hostile environments: a rebreather, water filters, hardsuit patches, backup thermals, a bivouac kit, and so on."
+    "description": "Этот набор содержит множество предметов первой необходимости для выживания в неблагоприятных условиях: ребризер, фильтры для воды, заплатки для защитного скафандра, запасные термобелье, комплект для бивака и так далее."
   }
 ]

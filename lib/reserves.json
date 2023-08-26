@@ -55,94 +55,94 @@
   },
   {
     "id": "reserve_access",
-    "name": "Access",
+    "name": "Доступ",
     "type": "Resource",
     "label": "Resource",
-    "description": "A keycard, invite, bribes or insider access to a particular location."
+    "description": "Ключ-карта, приглашение, взятка или инсайдерский доступ в определенное место."
   },
   {
     "id": "reserve_backing",
-    "name": "Backing",
+    "name": "Поддержка",
     "type": "Resource",
     "label": "Contact",
-    "description": "Useful leverage through political support from a powerful figure."
+    "description": "Полезный рычаг воздействия благодаря поддержки со стороны влиятельной фигуры."
   },
   {
     "id": "reserve_supplies",
-    "name": "Supplies",
+    "name": "Припасы",
     "type": "Resource",
     "label": "Resource",
-    "description": "Gear allowing easy crossing of a hazardous or hostile area."
+    "description": "Снаряжение, позволяющее легко пересечь опасную или враждебную зону."
   },
   {
     "id": "reserve_disguise",
-    "name": "Disguise",
+    "name": "Маскировка",
     "type": "Resource",
     "label": "Identity",
-    "description": "An effective disguise or cover identity, allowing uncontested access to a location."
+    "description": "Эффективная маскировка или прикрытие, позволяющее проникнуть в какое-либо место."
   },
   {
     "id": "reserve_diversion",
-    "name": "Diversion",
+    "name": "Диверсия",
     "type": "Resource",
     "label": "Diversion",
-    "description": "A distraction that provides time to take action without fear of consequence."
+    "description": "Отвлечение, которое дает время для действий без страха перед последствиями."
   },
   {
     "id": "reserve_blackmail",
-    "name": "Blackmail",
+    "name": "Шантаж",
     "type": "Resource",
     "label": "Target",
-    "description": "Blackmail materials or sensitive information concerning a particular person."
+    "description": "Материалы для шантажа или конфиденциальная информация, касающаяся конкретного лица."
   },
   {
     "id": "reserve_reputation",
-    "name": "Reputation",
+    "name": "Репутация",
     "type": "Resource",
     "label": "Status",
-    "description": "A good name in the mission area, prompting good first impressions with the locals."
+    "description": "Доброе имя в районе миссии, вызывающее хорошее первое впечатление у местных жителей."
   },
   {
     "id": "reserve_safe_harbor",
-    "name": "Safe Harbor",
+    "name": "Тихая Гавань",
     "type": "Resource",
     "label": "Location",
-    "description": "Guaranteed safety for meeting, planning, or recuperating."
+    "description": "Гарантированно безопасное место для встреч, планирования или восстановления сил."
   },
   {
     "id": "reserve_tracking",
-    "name": "Tracking",
+    "name": "Отслеживание",
     "type": "Resource",
     "label": "Target",
-    "description": "Details on the location of important objects or people."
+    "description": "Подробная информация о местонахождении важных объектов или людей."
   },
   {
     "id": "reserve_knowledge",
-    "name": "Knowledge",
+    "name": "Знания",
     "type": "Resource",
     "label": "Subject",
-    "description": "An understanding of local history, customs, culture, or etiquette."
+    "description": "Знание местной истории, обычаев, культуры или этикета."
   },
   {
     "id": "reserve_ammo",
-    "name": "Ammo",
+    "name": "Боеприпасы",
     "type": "Mech",
     "label": "Ammo",
-    "description": "Extra uses (+1 or +2) of a LIMITED weapon or system."
+    "description": "Доп. использование (+1 или +2) Ограниченного оружия или систем."
   },
   {
     "id": "reserve_rented_gear",
-    "name": "Rented gear",
+    "name": "Арендованное снаряжение",
     "type": "Mech",
     "label": "Gear",
-    "description": "Temporary access to a new weapon or piece of mech gear."
+    "description": "Временный доступ к новому оружию или части снаряжения мехов."
   },
   {
     "id": "reserve_extra_repairs",
-    "name": "Extra repairs",
+    "name": "Дополнительный ремонт",
     "type": "Mech",
     "label": "Resource",
-    "description": "Supplies that give a mech +2 REPAIR CAP.",
+    "description": "Припасы, дающие меху +2 Лимит Ремонта.",
     "bonuses": [{
       "id": "repcap",
       "val": 2
@@ -150,10 +150,10 @@
   },
   {
     "id": "reserve_core_battery",
-    "name": "CORE battery",
+    "name": "Батарея Ядра",
     "type": "Mech",
     "label": "Battery",
-    "description": "An extra battery that allows a second use of a mech’s CORE SYSTEM.",
+    "description": "Доп. батарея, позволяющая использовать Систему Ядра мехов повторно.",
     "bonuses": [{
       "id": "core_power",
       "val": 2
@@ -161,122 +161,122 @@
   },
   {
     "id": "reserve_deployable_shield",
-    "name": "Deployable Shield",
+    "name": "Разворачиваемый щит",
     "type": "Mech",
     "label": "Shield",
-    "description": "A single-use deployable shield generator – a SIZE 1 deployable that grants soft cover to all friendly characters in a BURST 2 radius.",
+    "description": "Одноразовый генератор разворачиваемого щита — Размер 1, который дает мягкое укрытие всем дружественным персонажам в радиусе Разрыва 2.",
     "deployables": [{
-      "name": "Deployable Shield (Reserve)",
+      "name": "Разворачиваемый щит (Ресурс)",
       "type": "Deployable",
       "size": 1,
-      "detail": "Grants soft cover to all friendly characters in a BURST 2 radius"
+      "detail": "Одноразовый генератор разворачиваемого щита — Размер 1, который дает мягкое укрытие всем дружественным персонажам в радиусе Разрыва 2."
     }]
   },
   {
     "id": "reserve_redundant_repair",
-    "name": "Redundant repair",
+    "name": "Резервный ремонт",
     "type": "Mech",
     "label": "Resource",
-    "description": "The ability to STABILIZE as a free action once per mission.",
+    "description": "Возможность Стабилизировать свободным действием один раз за миссию.",
     "actions": [{
-      "name": "Redundant Repair",
+      "name": "Резервный ремонт",
       "activation": "Free",
-      "detail": "STABILIZE as a free action."
+      "detail": "Стабилизироваться свободным действием."
     }]
   },
   {
     "id": "reserve_systems_reinforcement",
-    "name": "Systems reinforcement",
+    "name": "Усиление систем",
     "type": "Mech",
     "label": "Resource",
-    "description": "+1 ACCURACY to skill checks made with one skill – HULL, AGILITY, SYSTEMS or ENGINEERING.",
+    "description": "+1 Точность к проверкам навыков, сделанным с помощью одного навыка — Корпус, Маневренность, Системы, Инженерия.",
     "synergies": [{
       "locations": ["hase"],
-      "detail": "+1 ACCURACY to skill checks made with one skill – HULL, AGILITY, SYSTEMS or ENGINEERING."
+      "detail": "+1 Точность к проверкам навыков, сделанным с помощью одного навыка — Корпус, Маневренность, Системы, Инженерия."
     }]
   },
   {
     "id": "reserve_smart_ammo",
-    "name": "Smart ammo",
+    "name": "Умные боеприпасы",
     "type": "Mech",
     "label": "Ammo",
-    "description": "All weapons of your choice can be fired as if they are SMART.",
+    "description": "Все оружие по вашему выбору может стрелять так, как будто оно Умное.",
     "synergies": [{
       "locations": ["weapon"],
-      "detail": "All weapons of your choice can be fired as if they are SMART"
+      "detail": "Все оружие по вашему выбору может стрелять так, как будто оно Умное."
     }]
   },
   {
     "id": "reserve_boosted_servos",
-    "name": "Boosted servos",
+    "name": "Усиленные сервоприводы",
     "type": "Mech",
     "label": "Resource",
-    "description": "IMMUNITY to the SLOWED condition.",
+    "description": "Невосприимчивость к состоянию Замедления.",
     "synergies": [{
       "locations": ["move"],
-      "detail": "Your mech has IMMUNITY to the SLOWED condition."
+      "detail": "Ваш мех имеет Невосприимчивость к состоянию Замедления."
     }]
   },
   {
     "id": "reserve_jump_jets",
-    "name": "Jump jets",
+    "name": "Прыжковые ускорители",
     "type": "Mech",
     "label": "Resource",
-    "description": "During this mission your mech can FLY when moving, but must end movement on land.",
+    "description": "В процессе этой миссии ваш мех может Летать во время движения, но должен закончить перемещение на земле.",
     "synergies": [{
       "locations": ["move"],
-      "detail": "Your mech can FLY when moving, but must end movement on land."
+      "detail": "Ваш мех может Летать во время движения, но должен закончить перемещение на земле."
     }]
   },
   {
     "id": "reserve_scouting",
-    "name": "Scouting",
+    "name": "Разведка",
     "type": "Tactical",
     "label": "Location",
-    "description": "Detailed information on the kinds of mechs and threats you will face on the mission, such as number, type, and statistics."
+    "description": "Подробная информация о видах мехов и угроз, с которыми вы столкнетесь во время миссии, например, их количество, тип и статистика."
   },
   {
     "id": "reserve_vehicle",
-    "name": "Vehicle",
+    "name": "Транспортные средства",
     "type": "Tactical",
     "label": "Designation",
-    "description": "Use of a transport vehicle or starship (e.g. a TIER 1 NPC with the VEHICLE or SHIP template.)"
+    "description": "Использование транспортного средства или звездолета (например, Градации 1 с шаблоном Транспорта или Корабля.)"
   },
   {
     "id": "reserve_reinforcements",
-    "name": "Reinforcements",
+    "name": "Подкрепление",
     "type": "Tactical",
     "label": "Designation",
-    "description": "The ability to call in a friendly NPC mech of any Tier, once per mission."
+    "description": "Возможность вызвать дружественного НИП-меха любого уровня, один раз за миссию."
   },
   {
     "id": "reserve_environmental_shielding",
-    "name": "Environmental shielding",
+    "name": "Защита от окруж. среды",
     "type": "Tactical",
     "label": "Environment",
-    "description": "Equipment that allows you to ignore a particular battlefield hazard or dangerous terrain, such as extreme heat or cold."
+    "description": "Оборудование, позволяющее игнорировать специфическое воздействие на поле боя или опасной местности, например, сильную жару или холод."
   },
   {
     "id": "reserve_accuracy",
-    "name": "Accuracy",
+    "name": "Точность",
     "type": "Tactical",
     "label": "Skill/Action",
-    "description": "Training or enhancement that provides +1 ACCURACY to a particular mech skill or action for the duration of this mission.",
+    "description": "Обучение или улучшение, которое дает +1 Точности к определенному навыку или действию мехов на время этой миссии.",
     "synergies": [{
       "locations": ["other"],
-      "detail": "+1 ACCURACY to a particular mech skill or action for the duration of this mission."
+      "detail": "+1 Точность к определенному навыку или действию мехов на время этой миссии."
     }]
   },
   {
     "id": "reserve_bombardment",
-    "name": "Bombardment",
+    "name": "Бомбардировка",
     "type": "Tactical",
     "label": "Resource",
-    "description": "The ability to call in artillery or orbital bombardment once during mech combat (full action, RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage).",
+    "description": "Артиллерийская или орбитальная бомбардировка, единожды во время боя мехов (полн. действие, Дальность 30 в пределах прям. вид., Взрыв 2, 3d6 Взрывного урона).",
     "actions": [{
-      "name": "Bombardment",
+      "name": "Бомбардировка",
       "activation": "Full",
-      "detail": "Call in artillery or orbital bombardment:<br>RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage",
+      "detail": "Артиллерийская или орбитальная бомбардировка:<br>Дальность 30 в пределах прям. вид., Взрыв 2, 3d6 Взрывного урона.",
       "range": [
         {
           "type": "Range",
@@ -297,10 +297,10 @@
   },
   {
     "id": "reserve_extended_harness",
-    "name": "Extended Harness",
+    "name": "Расширенная подвеска",
     "type": "Tactical",
     "label": "Resource",
-    "description": "A custom harness that allows you to carry an extra pilot weapon and two extra pieces of pilot gear for the duration of this mission.",
+    "description": "Спец. снаряжение, которое позволяет вам носить дополнительное оружие пилота и 2 дополнительных предмета снаряжения пилота на время этой миссии.",
     "bonuses": [
       {
         "id": "pilot_gear",
@@ -310,23 +310,23 @@
   },
   {
     "id": "reserve_ambush",
-    "name": "Ambush",
+    "name": "Засада",
     "type": "Tactical",
     "label": "Location",
-    "description": "Intel that allows you to choose exactly where your next battle will take place, including the layout of terrain and cover."
+    "description": "Информация, которая позволяет вам выбрать, где именно будет происходить ваша следующая битва, включая план местности и укрытия."
   },
   {
     "id": "reserve_orbital_drop",
-    "name": "Orbital Drop",
+    "name": "Орбитальное падение",
     "type": "Tactical",
     "label": "Location",
-    "description": "The ability to start the mission by dropping from orbit into a heavily fortified or hard to reach location."
+    "description": "Возможность начать миссию, высадившись с орбиты в сильно укрепленное или труднодоступное место."
   },
   {
     "id": "reserve_nhp_assistant",
-    "name": "NHP Assistant",
+    "name": "Помощник НЧЛ",
     "type": "Tactical",
     "label": "Designation",
-    "description": "A non-human person (NHP) – an advanced artificial intelligence – controlled by the GM, that can give you advice on the current situation."
+    "description": "Нечеловеческая личность (НЧЛ) — продвинутый искусственный интеллект — контролируемый ГМ, который может дать вам совет по текущей ситуации."
   }
 ]

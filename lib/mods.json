@@ -9,14 +9,14 @@
     "source": "GMS",
     "license": "GMS",
     "license_level": 1,
-    "effect": "COMP/CON is unable to retrieve the data necessary to furnish this System. This is likely the result of a missing or outdated content pack.",
-    "description": "COMP/CON is unable to retrieve the data necessary to furnish this System. This is likely the result of a missing or outdated content pack.",
+    "effect": "COMP/CON не способен получить данные, необходимые для описания этой Системы. Скорее всего, это результат отсутствующего или устаревшего контент пака.",
+    "description": "COMP/CON не способен получить данные, необходимые для описания этой Системы. Скорее всего, это результат отсутствующего или устаревшего контент пака.",
     "tags": [],
     "license_id": ""
   },
   {
     "id": "wm_thermal_charge",
-    "name": "Thermal Charge",
+    "name": "Термический Заряд",
     "sp": 2,
     "allowed_types": [
       "Melee"
@@ -24,8 +24,8 @@
     "source": "IPS-N",
     "license": "NELSON",
     "license_level": 2,
-    "effect": "On a hit with the weapon this mod is applied to, expend a charge as a free action to activate its detonator and deal +1d6 explosive bonus damage.",
-    "description": "One popular modification to the classic war pike involves replacing the long, armor-piercing pike head with a disposable, impact-triggered explosive charge. On penetration, the pike’s head is severed from the shaft – moments later, the embedded pike head detonates in a conical explosion from the point forward. Spare thermal charges are stable, and transported in external tube magazines.<br>IPS-N also makes thermal charges compatible with GMS’s range of blades, hammers, and picks.",
+    "effect": "При попадании этим оружием потратьте заряд в качестве свободного действия, чтобы активировать его детонатор и нанести +1d6 Взрывного дополнительного урона.",
+    "description": "Одна из популярных модификаций классической боевой пики заключается в замене длинной бронебойной головки пики на одноразовый взрывной заряд, срабатывающий при ударе. При пробитии головка пики отделяется от древка — мгновение спустя вложенная головка детонирует в коническом взрыве вперед от острия. Запасные термические заряды стабильны и транспортируются во внешних трубчатых магазинах.<br>ИПС-Н также делает термические заряды совместимыми с ассортиментом лезвий, молотков и кирок ДМС.",
     "tags": [
       {
         "id": "tg_limited",
@@ -37,7 +37,7 @@
     ],
     "added_damage": [
       {
-        "type": "Explosive",
+        "type": "Взрывной",
         "val": "1d6"
       }
     ],
@@ -45,7 +45,7 @@
   },
   {
     "id": "wm_uncle_class_comp_con",
-    "name": "UNCLE-Class Comp/Con",
+    "name": "Комп/кон Класса «БАТЯ»",
     "sp": 3,
     "allowed_types": [
       "Melee",
@@ -58,8 +58,8 @@
     "source": "IPS-N",
     "license": "RALEIGH",
     "license_level": 3,
-    "effect": "Your UNCLE-class COMP/CON has control of the weapon this mod is applied to and its associated systems.<br>1/turn, you can attack at +2 difficulty with UNCLE’s weapon as a free action. UNCLE can’t use weapons that have already been used this turn, and any weapon UNCLE attacks with can’t be used again until the start of your next turn.<br>UNCLE isn’t a full NHP, so cannot enter cascade.",
-    "description": "IPS-N’s UNCLE comp/con system is the result of the DARKSTAR-2 program, a temporary project that sought to develop more advanced smart weapons. Early prototypes were hampered by a combination of high power-draw, unstable conditioning, and frustrating single-task orientation that eventually saw the project shuttered.<br>While IPS-N is no longer developing new iterations of UNCLE, they still have a stock of QA-approved legacy systems accessible to qualified pilots.<br>Pilots lucky enough to field test models swear by UNCLE’s task efficiency and parallel-track reasoning, though the outdated comp/cons are known for their somewhat unstable personalities.",
+    "effect": "Выберите одно Вспомогательное, Основное или Тяжелое оружие: ваш комп/кон класса «БАТЯ» контролирует это оружие и связанные с ним системы.<br>1/ход вы можете атаковать оружием «БАТЯ» с +2 в качестве свободного действия. «БАТЯ» не может использовать оружие, которое уже использовалось в этом ходу, и любое оружие, которым «БАТЯ» атакует, не может быть использовано снова до начала вашего следующего хода.<br>«БАТЯ» не является полноценным НЧЛ, поэтому не может участвовать в каскаде.",
+    "description": "Система ИПС-Н «БАТЯ» комп/кон является результатом программы ДАРКСТАР-2, временного проекта, направленного на разработку более совершенного интеллектуального оружия. Ранним прототипам мешало сочетание высокого энергопотребления, нестабильной подготовки и разочаровывающей ориентации на одну задачу, что в конечном итоге привело к закрытию проекта. <br>Хотя ИПС-Н больше не разрабатывает новые итерации «БАТЯ», у них все еще есть запас одобренных QA старых систем, доступных для квалифицированных пилотов.<br>Пилоты, которым посчастливилось провести полевые испытания моделей, клянутся в эффективности «БАТЯ» при выполнении задач и мышлении на параллельных путях, хотя устаревшие комп/кон известны своим несколько нестабильным характером.",
     "tags": [
       {
         "id": "tg_unique"
@@ -78,7 +78,7 @@
   },
   {
     "id": "wm_throughbolt_rounds",
-    "name": "Throughbolt Rounds",
+    "name": "Сквозные Болты",
     "sp": 2,
     "allowed_types": [
       "CQB",
@@ -88,8 +88,8 @@
     "source": "IPS-N",
     "license": "TORTUGA",
     "license_level": 3,
-    "effect": "When you attack with the weapon this mod is applied to, you may fire a throughbolt round instead of attacking normally. Draw a line 3 path from you, passing through terrain or other obstacles – any characters or objects in the path take 2 AP kinetic damage as the projectile punches through them and out the other side. Range, cover, and line of sight for the attack are then measured from the end of this path, continuing in the same direction.",
-    "description": "Throughbolt rounds are a proprietary IPS-N anti-armor invention. When fired, the rounds ignite and project a superheated cone of plasma before them, creating an effect like a miniature lance that easily penetrates multiple targets – even through hard surfaces.",
+    "effect": "Выберите один ОБД, Пушку или Винтовку: когда вы атакуете этим оружием, вы можете стрелять насквозь вместо обычной атаки. Прочертите от себя путь длиной Линия 3, проходящий через местность или другие препятствия — любые персонажи или объекты на пути получают 2 ББ Кинетического урона, когда снаряд пробивает их насквозь и выходит с другой стороны. Дальность, укрытие и линия обзора для атаки затем измеряются от конца этого пути, продолжаясь в том же направлении.",
+    "description": "Сквозные Болты — это запатентованное изобретение ИПС-Н для борьбы с бронетехникой. При выстреле снаряды воспламеняются и выбрасывают перед собой перегретый конус плазмы, создавая эффект миниатюрного копья, которое легко пробивает множество целей — даже через твердые поверхности.",
     "tags": [
       {
         "id": "tg_unique"
@@ -99,7 +99,7 @@
   },
   {
     "id": "wm_shock_wreath",
-    "name": "Shock Wreath",
+    "name": "Шоковый Венец",
     "sp": 2,
     "allowed_types": [
       "Melee"
@@ -107,15 +107,15 @@
     "source": "SSC",
     "license": "METALMARK",
     "license_level": 3,
-    "effect": "In addition to its usual damage, 1/round you may activate the wreath as a quick action when you hit a character with the weapon this mod is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn.",
+    "effect": "В дополнение к обычному урону, 1/раунд вы можете активировать венец в качестве быстрого действия, когда вы бьете персонажа этим оружием, чтобы вызвать у него 1d6 Горения. Если он уже страдает от Горения, он может дополнительно проводить линию прямой видимости только к соседним пространствам до конца своего следующего хода.",
     "actions": [
       {
-        "name": "Activate Shock Wreath",
+        "name": "Активировать Шоковый Венец",
         "activation": "Quick",
-        "detail": "1/round you may activate your equipped Shock Wreath as a quick action when you hit a character with the weapon it is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn."
+        "detail": "1/раунд вы можете активировать Шоковый Венец в качестве быстрого действия, когда вы бьете персонажа этим оружием, чтобы вызвать у него 1d6 Горения. Если он уже страдает от Горения, он может дополнительно проводить линию прямой видимости только к соседним пространствам до конца своего следующего хода."
       }
     ],
-    "description": "A post-fab modification popular among melee combat specialists, Shock Wreathes integrate a bundle of conductive filaments within the blade, point, tip, or surface of a close combat weapon. Paired with a power source – typically in the hilt or lower half of a weapon, but sometimes external – Shock Wreathes give kinetic weapons a thermal edge and a distinctive visual marker: fine lines of white-hot light like filigree, shrouding the modified weapon in shimmering heat.",
+    "description": "Постфабричная модификация, популярная среди специалистов по ближнему бою, Шоковый Венец интегрирует пучок проводящих нитей в лезвие, острие, наконечник или поверхность оружия ближнего боя. В сочетании с источником питания — обычно в рукоятке или нижней половине оружия, но иногда и снаружи — Шоковые Венцы придают кинетическому оружию тепловое преимущество и отличительный визуальный маркер: тонкие линии раскаленных ламп, как филигрань, окутывают модифицированное оружие мерцающим тёплым светом.",
     "tags": [
       {
         "id": "tg_unique"
@@ -125,7 +125,7 @@
   },
   {
     "id": "wm_stabilizer_mod",
-    "name": "Stabilizer Mod",
+    "name": "Стабилизирующий Мод",
     "sp": 2,
     "allowed_types": [
       "Launcher",
@@ -134,8 +134,8 @@
     "source": "SSC",
     "license": "MONARCH",
     "license_level": 2,
-    "effect": "the weapon this mod is applied to gains +5 range and the Ordnance tag.",
-    "description": "Stabilizer mods enhance physical mounts and targeting software, ensuring weapons remain level, steady, and at an appropriate angle regardless of terrain or pilot maneuvers.",
+    "effect": "Оружие, к которому применен Мод, получает +5 Дальности и становится Артиллерийским.",
+    "description": "Стабилизирующие Моды улучшают физические крепления и программное обеспечение для прицеливания, позволяя оружию оставаться в ровном и устойчивом положении и под нужным углом, независимо от рельефа местности или маневров пилота.",
     "added_range": [
       {
         "type": "Range",
@@ -151,7 +151,7 @@
   },
   {
     "id": "wm_nanocomposite_adaptation",
-    "name": "Nanocomposite Adaptation",
+    "name": "Нанокомпозитная Адаптация",
     "sp": 2,
     "allowed_types": [
       "Melee",
@@ -164,8 +164,8 @@
     "source": "HORUS",
     "license": "BALOR",
     "license_level": 2,
-    "effect": "the weapon this mod is applied to gains Smart and Seeking.",
-    "description": "Nanocomposite weapons take aggressive drone swarms and condense them into individual rounds, a coherent beam, or the edge of a blade.<br>Adapted projectile weapons fire shaped CONSUME/HIVE rounds that shatter on impact, releasing their payload of autonomous nanite maniples. Once freed, the maniples begin eating away at surrounding tissue or superstructure. They proceed until burnout or total target consumption, whichever occurs first. In flight, the maniples are able to hive-link and make slight adjustments to the trajectory of their round, ensuring positive impact.<br>Coherent beam weapons transport maniples directly, while conventional melee weapons are replaced by analogs composed entirely of nanobots.",
+    "effect": "Оружие, к которому применен Мод, становится Умным и Искателем.",
+    "description": "Нанокомпозитное оружие собирает агрессивные рои дронов и превращает их в отдельные снаряды, когерентный луч или острие клинка. <br>Адаптированное метательное оружие стреляет снарядами ПОГЛОЩЕНИЕ/УЛЕЙ, которые разбиваются при ударе, высвобождая боезапас в виде автономных нанитовых манипул. Освободившись, манипулы начинают разъедать окружающие ткани или надстройки. Они действуют до тех пор, пока не сгорят или не поглотят цель полностью, в зависимости от того, что произойдет раньше. В полете манипуляторы способны объединяться в улей и слегка корректировать траекторию полета, обеспечивая положительное воздействие.<br>Когерентное лучевое оружие транспортирует манипулы напрямую, в то время как обычное оружие ближнего боя заменяется аналогами, полностью состоящими из нанороботов.",
     "added_tags": [
       {
         "id": "tg_smart"
@@ -178,7 +178,7 @@
   },
   {
     "id": "wm_phase_ready_mod",
-    "name": "Phase-Ready Mod",
+    "name": "Мод Фазовой Готовности",
     "sp": 2,
     "allowed_types": [
       "Melee",
@@ -191,13 +191,13 @@
     "source": "HA",
     "license": "NAPOLEON",
     "license_level": 2,
-    "effect": "As long as you know the rough location of your target, the weapon this mod is applied to can attack through solid walls and obstructions, doesn’t require line of sight, and ignores all cover, but targets attacked this way count as Invisible.",
-    "description": "As it was named following its first use during the civil hostilities on Luna de Oro, phase-ready ammunition is the “devil’s bullets”. Each round contains a nanoprocessor suite networked with its weapon of origin that calculates and translates the specific nature of that round’s superpositional relation with a projected future doppelgänger that manifests in the space immediately before its intended target. To put it simply, phase-ready rounds, when fired, exist in two places at once: exiting the barrel of the weapon they were fired from, and directly in front of the target, prior to impact. The prime round may never hit its target, but given it already exists at the moment of impact, the doppelgänger round will reliably reach its mark.",
+    "effect": "Пока вы знаете приблизительное местоположение цели, оружие может атаковать сквозь сплошные стены и препятствия, не требует прямой видимости и игнорирует все укрытия, но цели, атакованные таким образом, считаются Невидимыми.",
+    "description": "Боеприпасы фазовой готовности, как они были названы после первого применения во время гражданских военных действий на Луна-де-Оро, называются «пулями дьявола». Каждый снаряд содержит набор нанопроцессоров, объединенных в сеть с исходным оружием, который вычисляет и переводит специфический характер суперпозиционных отношений этого снаряда с прогнозируемым будущим двойником, который проявляется в пространстве непосредственно перед намеченной целью. Проще говоря, снаряды фазовой готовности при выстреле существуют сразу в двух местах: на выходе из ствола оружия, из которого они были выпущены, и непосредственно перед целью, до удара. Основной патрон может никогда не попасть в цель, но, поскольку он уже существует в момент выстрела, патрон-двойник точно достигнет цели.",
     "license_id": "mf_napoleon"
   },
   {
     "id": "wm_paracausal_mod",
-    "name": "Paracausal Mod",
+    "name": "Параказуальный Мод",
     "sp": 4,
     "allowed_types": [
       "Melee",
@@ -210,8 +210,8 @@
     "source": "HA",
     "license": "SALADIN",
     "license_level": 3,
-    "effect": "This weapon gains Overkill, and its damage can’t be reduced in any way, including by other effects and systems (such as Resistance, Armor, etc).",
-    "description": "Paracausal weapons are a headache for military planners; their precise A–Z function is often obscured, though they consistently produce the same “Z” output per “A” input.<br>The first reports of unregulated paracausal weaponry occurred during the civil engagements on Tian Shen. System-local forces received sealed magazines with directions to be loaded and fired as normal, although inspection of the magazines’ contents was prohibited on grounds that it would “damage the payload”. Helmet and gun cam footage do not betray the anomalous effects of this ordnance, though after-action reports uncovered a seemingly minor, though incredibly odd fact: every single trooper outfitted with this paracausal ammunition scored a 100% positive impact rate.<br>Union has scheduled all unregulated paracausal weapons and ammunition for retrieval, and the bureau is currently investigating Harrison Armory for its role in the development of the technology. Despite this, paracausal ammunition is still in use, as shipments and codes continue to leak to interested parties.",
+    "effect": "Оружие, к которому применен Мод, получает Избыточный Урон, и его урон нельзя уменьшить никаким образом, в том числе другими эффектами и системами (такими как Сопротивляемость, Броня и т. д.).",
+    "description": "Паракаузальное оружие — головная боль военных планировщиков; их точная функция A–Z часто скрыта, хотя они последовательно производят один и тот же вывод «Z» для каждого входа «A».<br>Первые сообщения о нерегулируемом паракаузальном оружии появились во время гражданских столкновений на Тянь-Шене. Системно-локальные силы получили запечатанные магазины с указаниями заряжать и стрелять как обычно, хотя осмотр содержимого магазинов был запрещен на том основании, что это \"повредит полезную нагрузку\". Записи со шлемов и орудийных камер не выдают аномального воздействия этого боеприпаса, хотя отчеты после боя выявили, казалось бы, незначительный, но невероятно странный факт: каждый военнослужащий, экипированный этими паракаузальными боеприпасами, добился 100% коэффициента положительного воздействия.<br>Союз запланировал изъятие всего нерегулируемого паракаузального оружия и боеприпасов, и в настоящее время бюро проводит расследование в отношении Оружейной палаты Харрисона на предмет его роли в разработке этой технологии. Несмотря на это, паракаузальные боеприпасы все еще используются, поскольку поставки и коды продолжают просачиваться к заинтересованным лицам.",
     "added_tags": [
       {
         "id": "tg_overkill"
