@@ -1,314 +1,314 @@
 [
   {
     "id": "tg_burn",
-    "name": "BURN {VAL}",
-    "description": "On a hit, this weapon deals {VAL} Burn to its target. They immediately take that much burn damage, ignoring Armor, then mark {VAL} Burn on their sheet, adding it to any existing Burn. At the end of their turn, characters with marked burn make an Engineering check. On a success, they clear all marked burn; on a failure, they take damage equal to their total marked burn."
+    "name": "Горение {VAL}",
+    "description": "При попадании это оружие наносит {VAL} Горения своей цели. Она немедленно получает столько же урона от горения, игнорируя броню, затем отмечает {VAL} Горения на своем листе, добавляя его к существующему горению. В конце своего хода персонажи с отмеченным горением делают проверку Инженерии. В случае успеха они убирают всё горение; в случае неудачи они получают урон, равный их общему числу горения."
   },
   {
     "id": "tg_heat_target",
-    "name": "HEAT {VAL} (TARGET)",
-    "description": "On a hit, this weapon or system deals {VAL} Heat to its target."
+    "name": "Перегрев {VAL} (Цель)",
+    "description": "При попадании это оружие или система наносит {VAL} Нагрева своей цели."
   },
   {
     "id": "tg_line",
-    "name": "LINE {VAL}",
-    "description": "Attacks made with this weapon affect characters in a straight line, {VAL} spaces long.",
+    "name": "Линия {VAL}",
+    "description": "Атаки этим оружием поражают персонажей по прямой линии длиной {VAL} пространств.",
     "filter_ignore": true
   },
   {
     "id": "tg_cone",
-    "name": "CONE {VAL}",
-    "description": "Attacks made with this weapon affect  characters within a cone, {VAL} spaces long and {VAL} spaces wide at its furthest point. The cone begins 1 space wide.",
+    "name": "Конус {VAL}",
+    "description": "Атаки этим оружием поражают персонажей в пределах конуса длиной {VAL} пространств и шириной {VAL} пространств в самой дальней точке. Ширина конуса начинается на 1 пространство.",
     "filter_ignore": true
   },
   {
     "id": "tg_blast",
-    "name": "BLAST {VAL}",
-    "description": "Attacks made with this weapon affect characters within a radius of {VAL} spaces, drawn from a point within Range and line of sight. Cover and line of sight are calculated based on the center of the blast, rather than the attacker’s position.",
+    "name": "Взрыв {VAL}",
+    "description": "Атаки этим оружием поражают персонажей в радиусе {VAL} пространств от точки в пределах Расстояния и прямой видимости. Прикрытие и линия видимости рассчитываются на основе центра взрыва, а не позиции атакующего.",
     "filter_ignore": true
   },
   {
     "id": "tg_burst",
-    "name": "BURST {VAL}",
-    "description": "Attacks made with this weapon affect characters within a radius of {VAL} spaces, centered on and including the space occupied by the user (or target). If the Burst is an attack, the user or target is not affected by the attack unless specified. Cover and line of sight are calculated from the character. If a Burst effect is ongoing, it moves with the character at its center.",
+    "name": "Разрыв {VAL}",
+    "description": "Атаки этим оружием поражают персонажей в радиусе {VAL} пространств, в центре которого находится пространство, занимаемое персонажем (или целью). Если разрыв является атакой, пользователь или цель не поражаются атакой, если не указано иное. Укрытие и линия видимости рассчитываются от персонажа. Если эффект Разрыва продолжителен, он перемещается вместе с персонажем в центре.",
     "filter_ignore": true
   },
   {
     "id": "tg_accurate",
-    "name": "ACCURATE",
-    "description": "Attacks made with this weapon receive +1 Accuracy."
+    "name": "Точное",
+    "description": "Атаки этим оружием, получают +1 Точность."
   },
   {
     "id": "tg_arcing",
-    "name": "ARCING",
-    "description": "This weapon can be fired over obstacles, usually by lobbing a projectile in an arc. Attacks made with this weapon don’t require line of sight, as long as it’s possible to trace a path to the target; however, they are still affected by cover."
+    "name": "Дуговое",
+    "description": "Это оружие запускает снаряды по дуге через препятствия. Атаки этим оружием не требуют прямой видимости, если можно проследить путь к цели; однако они все равно отражаются укрытием."
   },
   {
     "id": "tg_ap",
-    "name": "ARMOR-PIERCING (AP)",
-    "description": "Damage dealt by this weapon ignores Armor."
+    "name": "Бронебойное (ББ)",
+    "description": "Урон, наносимый этим оружием, игнорирует Броню."
   },
   {
     "id": "tg_inaccurate",
-    "name": "INACCURATE",
-    "description": "Attacks made with this weapon receive +1 Difficulty."
+    "name": "Неточное",
+    "description": "Атаки этим оружием, получают +1 Сложность."
   },
   {
     "id": "tg_knockback",
-    "name": "KNOCKBACK {VAL}",
-    "description": "On a hit, the user may choose to knock their target {VAL} spaces in a straight line directly away from the point of origin (e.g., the attacking mech or the center of a Blast). Multiple Knockback effects stack with each other. This means that an attack made with a Knockback 1 weapon and a talent that grants Knockback 1 counts as having Knockback 2."
+    "name": "Толчок {VAL}",
+    "description": "При попадании атакующий может выбрать отбросить свою цель на {VAL} пространств по прямой линии прямо от точки попадания (например, атакующего меха или центра Взрыва). Несколько эффектов Толчка склады-ваются друг с другом. Это означает, что атака, выполненная оружием с Толчком 1 и талантом, дающим Толчок 1, считается как атака с Толчком 2."
   },
   {
     "id": "tg_loading",
-    "name": "LOADING",
-    "description": "This weapon must be reloaded after each use. Mechs can reload with Stabilize and some systems."
+    "name": "Заряжаемое",
+    "description": "Это оружие должно заряжаться после каждого использования. Мехи могут перезаряжаться с помощью Стабилизации и некоторых систем."
   },
   {
     "id": "tg_ordnance",
-    "name": "ORDNANCE",
-    "description": "This weapon can only be fired before the user moves or takes any other actions on their turn, excepting Protocols. The user can still act and move normally after attacking. Additionally, because of its size, this weapon can’t be used against targets in engagement with the user’s mech, and cannot be used for Overwatch."
+    "name": "Артиллерийское",
+    "description": "Это оружие может быть использовано только до того, как пользователь переместится или предпримет какие-либо другие действия в свой ход, за исключением Протоколов. После атаки пользователь действует и перемещается в обычном режиме. Кроме того, из-за своего размера, это оружие не может быть использовано против целей, вовлеченных с мехом пользователя, и не может быть использовано для атак Наблюдением."
   },
   {
     "id": "tg_overkill",
-    "name": "OVERKILL",
-    "description": "When rolling for damage with this weapon, any damage dice that land on a 1 cause the attacker to take 1 Heat, and are then rerolled. Additional 1s continue to trigger this effect."
+    "name": "Избыточный Урон",
+    "description": " При броске на урон этим оружием все кубики урона, на которых выпала 1, заставляют атакующего получить 1 Нагрев, а затем перебрасываются повторно. Дополнительные 1 продолжают вызывать этот эффект."
   },
   {
     "id": "tg_overshield",
-    "name": "OVERSHIELD",
-    "description": "This system provides HP that disappears at the end of the scene or when a specified condition is met. The user only retains the highest value of Overshield applied – it does not stack. For example, if a system provides Overshield 5 and the user gains another effect that provides Overshield 7, they would gain Overshield 7. Damage is dealt to Overshield first, then HP. Overshield can push a character past their maximum HP. It can’t benefit from healing but otherwise benefits normally from anything that would affect HP and damage (i.e., reduction, armor, etc)."
+    "name": "Усиление Щита",
+    "description": "Эта система обеспечивает ПЗ, которые исчезают в конце сцены или при выполнении определенного условия. Пользователь сохраняет только наивысшее значение примененного Усиления Щита — оно не суммируется. Например, если система обеспечивает Усиление Щита 5, а пользователь получает другой эффект, который обеспечивает Усиление Щита 7, он получит Защиту 7. Урон наносится сначала Усилению Щита, затем ПЗ. Усиление Щита может вытеснить персонажа за пределы его максимального уровня ПЗ. Оно не может получить пользу от исцеления, но в остальном получает пользу от всего, что может повлиять на ПЗ и урон (уменьшение, броня и т.д.)."
   },
   {
     "id": "tg_reliable",
-    "name": "RELIABLE {VAL}",
-    "description": "This weapon has some degree of self-correction or is simply powerful enough to cause damage even with a glancing blow. It always does {VAL} damage, even if it misses its target or rolls less damage. Reliable damage inherits other tags (such as AP) and base damage type but not tags that require a hit, such as Knockback."
+    "name": "Надежное {VAL}",
+    "description": "Это оружие обладает некоторым уровнем самокоррекции или просто достаточно мощное, чтобы нанести урон даже при скользящем ударе. Оно всегда наносит {VAL} урона, даже если промахивается по цели или наносит урон меньше значения Х. Надежный урон наследует другие метки (например, ББ) и базовый тип урона, но не метки, требующие попадания, например, Толчок."
   },
   {
     "id": "tg_seeking",
-    "name": "SEEKING",
-    "description": "This weapon has a limited form of self-guidance and internal propulsion, allowing it to follow complicated paths to its targets. As long as it’s possible to draw a path to its target, this weapon ignores cover and doesn’t require line of sight."
+    "name": "Искатель",
+    "description": "Это оружие обладает ограниченной формой самонаведения и внутренней тягой, что позволяет ему двигаться к цели по сложным траекториям. Пока есть возможность проложить путь к цели, это оружие игнорирует укрытия и не требует прямой видимости."
   },
   {
     "id": "tg_smart",
-    "name": "SMART",
-    "description": "This weapon has self-guidance systems, self-propelled projectiles, or even nanorobotic ammunition. These systems are effective enough that its attacks can’t simply be dodged – they must be scrambled or jammed. Because of this, all attacks with this weapon – including melee and ranged attacks – use the target’s E-Defense instead of Evasion. Targets with no E-Defense count as having 8 E-Defense."
+    "name": "Умное",
+    "description": "Это оружие имеет системы самонаведения, самонаводящиеся снаряды или даже нанороботизированные боеприпасы. Эти системы настолько эффективны, что от их атак нельзя просто уклониться — их нужно зашифровать или заглушить. Из-за этого все атаки этим оружием, включая атаки ближнего и дальнего боя, используют Э-Защиту цели вместо Уклонения. Цели, у которых нет Э-Защиты, считаются имеющими 8 Э-Защиты."
   },
   {
     "id": "tg_threat",
-    "name": "THREAT {VAL}",
-    "description": "This weapon can be used to make Overwatch attacks within {VAL} spaces. If it’s a melee weapon, it can be used to make melee attacks within {VAL} spaces."
+    "name": "Угроза {VAL}",
+    "description": "Это оружие может быть использовано для нанесения атак Наблюдением в пределах {VAL} пространств. Если это оружие ближнего боя, оно может быть использовано для атак ближнего боя в пределах {VAL} пространств."
   },
   {
     "id": "tg_thrown",
-    "name": "THROWN {VAL}",
-    "description": "This melee weapon can be thrown at targets within {VAL} spaces. Thrown attacks follow the rules for melee attacks but are affected by cover; additionally, a thrown weapon comes to rest in an adjacent space to its target and must be retrieved as a free action while adjacent to that weapon before it can be used again."
+    "name": "Бросок {VAL}",
+    "description": "Это оружие ближнего боя может быть брошено в цель в пределах {VAL} пространств. Метательные атаки следуют правилам для атак ближнего боя, но на них не влияет укрытие; кроме того, брошенное оружие попадает в соседнее с целью пространство и должно быть извлечено свободным действием, прежде чем его можно будет использовать."
   },
   {
     "id": "tg_turn",
-    "name": "{VAL}/TURN",
-    "description": "This system, trait, or reaction can be used {VAL} number of times in any given turn."
+    "name": "{VAL}/Ход",
+    "description": "Эта система, черта или реакция может быть использована {VAL}  раз в течение любого хода."
   },
   {
     "id": "tg_round",
-    "name": "{VAL}/ROUND",
-    "description": "This system, trait or reaction can be used {VAL} number of times between the start of the user’s turn and the start of their next turn."
+    "name": "{VAL}/Раунд",
+    "description": "Эта система, свойство или реакция может быть использована {VAL} раз между началом хода пользователя и началом его следующего хода."
   },
   {
     "id": "tg_ai",
-    "name": "AI",
-    "description": "A mech can only have one system with this tag installed at a time. Some AI systems grant the AI tag to the mech. A mech with the AI tag has an NHP or comp/con unit installed that can act onsomewhat autonomously. A pilot can choose to hand over the controls to their AI  or take control back as a protocol. Their mech gains its own set of actions and reactions when controlled by an AI, but the pilot can’t take actions or reactions with it until the start of their next turn. AIs can’t benefit from talents, and have a small chance of cascading when they take structure damage or stress damage."
+    "name": "ИИ",
+    "description": "На мехе одновременно может быть установлена только одна система с этой меткой. Некоторые системы ИИ наделяют мех меткой ИИ. Мех с меткой ИИ имеет установленный блок НЧЛ или комп/кон, который может действовать в некоторой степени автономно. Пилот может передать управление своему ИИ или вернуть управление протоколом. Их мехи получают свой собственный набор действий и реакций, если находятся под управлением ИИ, но пилот не может совершать действия или реакции с ними до начала своего следующего хода. ИИ не могут пользоваться талантами и имеют небольшой шанс попасть в каскад при получении структурного урона или нагрузочного урона."
   },
   {
     "id": "tg_danger_zone",
-    "name": "DANGER ZONE",
-    "description": "This system, talent, or weapon can only be used if the user is in the Danger Zone (Heat equal to at least half of their Heat Cap)."
+    "name": "Опасная Зона",
+    "description": "Эту систему, талант или оружие можно использовать, только если пользователь находится в Опасной Зоне (тепло, равное как минимум половине его Теплового Максимума)."
   },
   {
     "id": "tg_deployable",
-    "name": "DEPLOYABLE",
-    "description": "This system is an object that can be deployed on the field. Unless otherwise specified, it can be deployed in an adjacent, free and valid space as a quick action, and has 5 Evasion and 10 HP per Size."
+    "name": "Размещаемое",
+    "description": "Эту систему можно разместить на поле. Если не указано иное, она может быть размещена в соседнем, свободном и действительном пространстве как быстрое действие, и имеет 5 Уклонение и 10 ПЗ за Размер."
   },
   {
     "id": "tg_drone",
-    "name": "DRONE",
-    "description": "This is a self-propelled, semi-autonomous unit with rudimentary intelligence. Unless otherwise specified, Drones are Size 1/2 characters that are allied to the user and have 10 Evasion, 5 HP, and 0 Armor. To be used they must be deployed to a free, valid space within Sensors and line of sight, typically as a quick action. Once deployed, they can be recalled with the same action used to deploy them (quick action or full action, etc.), rejoining with your mech. By default, Drones can’t take actions or move; if they do have actions or movement, they act on their user’s turn. They benefit from cover and other defenses as usual, and make all mech skill checks and saves at +0. If a Drone reaches 0 HP, it is destroyed and must be repaired before it can be used again – like any system. As long as a Drone  hasn’t been destroyed, it is restored to full HP when the user rests or performs a Full Repair. Deployed Drones  persist for the rest of the scene, until destroyed, or until otherwise specified."
+    "name": "Дрон",
+    "description": "Это самоходная, полуавтономная единица с рудиментарным интеллектом. Если не указано иное, Дроны — это персонажи с половинным размером, которые являются союзниками пользователя и имеют 10 Уклонения, 5 ПЗ и 0 Брони. Чтобы их можно было использовать, они должны быть развернуты на свободном, действительном пространстве в пределах Сенсоров и прямой видимости, обычно как быстрое действие. После размещения они могут быть отозваны тем же действием, которое использовалось для их размещения (быстрое действие или полное действие, и т.д.), и снова пристыковаться к вашему меху. По умолчанию Дроны не могут совершать действия или перемещаться; если у них есть действия или перемещение, они действуют в ход своего пользователя. Они пользуются укрытием и другими защитными средствами, как обычно, и делают все проверки навыков мехов и спасброски с +0. Если ПЗ Дрона достигают 0, он уничтожается и должен быть восстановлен, прежде чем его можно будет исполь-зовать снова — как и любую систему. Пока Дрон не уничтожен, он восстанавливается до полных ПЗ, когда пользователь делает перерыв или выполняет Полный Ремонт. Размещенные Дроны сохраняются до конца сцены, пока не будут уничтожены или пока не будет приказано иное. "
   },
   {
     "id": "tg_full_action",
-    "name": "FULL ACTION",
-    "description": "This system requires a full action to Activate."
+    "name": "Полное Действие",
+    "description": "Эта система требует полного действия для Активации."
   },
   {
     "id": "tg_grenade",
-    "name": "GRENADE",
-    "description": "As a quick action, this explosive or other device can be thrown to a space within line of sight and the specified Range."
+    "name": "Граната",
+    "description": "быстрым действием взрывчатое или другое устройство можно бросить в пространство в пределах прямой видимости и указанной дальности и видимости."
   },
   {
     "id": "tg_heat_self",
-    "name": "HEAT {VAL} (SELF)",
-    "description": "Immediately after using this weapon or system, the user takes {VAL} Heat."
+    "name": "Нагрев {VAL} (Свой)",
+    "description": "Немедленно, после использования оружия или системы, пользователь получает Нагрев."
   },
   {
     "id": "tg_limited",
-    "name": "LIMITED {VAL}",
-    "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge."
+    "name": "Ограниченное {VAL}",
+    "description": "Это оружие или система могут быть использованы только {VAL} раз, прежде чем потребуется Полный Ремонт. Некоторые Ограниченные системы, такие как Гранаты, описывают использования как \"заряды\". Чтобы использовать систему, пользователь тратит заряд."
   },
   {
     "id": "tg_mine",
-    "name": "MINE",
-    "description": "As a quick action, this device can be planted in an adjacent, free and valid space on any surface, but not adjacent to any other mines. Upon deployment, it arms at the end of the deploying character’s turn and – unless otherwise specified – is triggered when any character enters an adjacent space. Characters leaving an adjacent space will not trigger a mine. Once triggered, a mine creates a Burst attack starting from the space in which it was placed. Mines within a character’s Sensors can be detected by making a successful Systems check as a quick action, otherwise they are Hidden and can’t be targeted. Detected mines can be disarmed from adjacent spaces by making a successful Systems check as a quick action; the attempt takes place before the mine detonates, and on a failure, the mine detonates as normal."
+    "name": "Мина",
+    "description": "В качестве быстрого действия это устройство может быть установлено в соседнем, свободном и действующем пространстве на любой поверхности, но не рядом с другими минами. После установки оно срабатывает в конце хода персонажа, установившего мину, и — если не указано иное — срабатывает, когда любой персонаж входит в соседнее пространство. Персонажи, покидающие соседнее пространство, не приводят мину в действие. После срабатывания мина создает Разрывную атаку, начиная с пространства, в котором она была установлена. Мины в пределах сенсоров персонажа можно обнаружить, сделав успешную проверку Систем в качестве быстрого действия, иначе они скрыты и в них нельзя нацелиться. Обнаруженные мины можно обезвредить из соседних пространств, сделав успешную проверку Систем как быстрое действие; попытка происходит до того, как мина взорвется, при неудаче мина взрывается как обычно."
   },
   {
     "id": "tg_mod",
-    "name": "MOD",
-    "description": "This modification can be applied to a weapon. Each weapon can only have one Mod, and cannot have more than one of the same Mod. Mods are applied when the user builds their mech or during a Full Repair."
+    "name": "Мод",
+    "description": "Эта модификация может быть применена к оружию. Каждое оружие может иметь только один Мод, и не может иметь более одного одинакового Мода. Моды применяются, когда пользователь строит своего меха или во время Полного Ремонта."
   },
   {
     "id": "tg_protocol",
-    "name": "PROTOCOL",
-    "description": "This system can be activated as a free action, but only at the start of the user’s turn. Another action might be needed to deactivate it."
+    "name": "Протокол",
+    "description": "Можно активировать свободным действием, но только в начале хода пользователя. Для ее деактивации может потребоваться другое действие."
   },
   {
     "id": "tg_quick_action",
-    "name": "QUICK ACTION",
-    "description": "This system requires a quick action to Activate."
+    "name": "Быстрое Действие",
+    "description": "Требует активации быстрым действием."
   },
   {
     "id": "tg_reaction",
-    "name": "REACTION",
-    "description": "This system can be activated as a reaction."
+    "name": "Реакция",
+    "description": "Систему можно активировать реакцией."
   },
   {
     "id": "tg_shield",
-    "name": "SHIELD",
-    "description": "This system is an energy shield of some kind."
+    "name": "Щит",
+    "description": "Представляет собой некий энергетический щит."
   },
   {
     "id": "tg_unique",
-    "name": "UNIQUE",
-    "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+    "name": "Уникальное",
+    "description": "Это оружие или система не могут быть продублированы — у каждого персонажа одновременно может быть установлена только одна их копия."
   },
   {
     "id": "tg_archaic",
-    "name": "ARCHAIC",
-    "description": "This weapon is old-fashioned and can’t harm mechs."
+    "name": "Архаичное",
+    "description": "Это оружие старомодно и не может причинить вреда мехам."
   },
   {
     "id": "tg_personal_armor",
-    "name": "PERSONAL ARMOR",
-    "description": "This gear offers protection in combat, but it is obvious to observers and usually can’t be hidden. Only one piece of Personal Armor can be worn at a time. Putting on Personal Armor takes 10–20 minutes, and while wearing it, pilots have restricted mobility and dexterity. Nobody wears armor unless they’re expecting to go into a warzone."
+    "name": "Личная Броня",
+    "description": "Это снаряжение обеспечивает защиту в бою, но оно очевидно для наблюдателей и обычно не может быть спрятано. Одновременно можно носить только одну часть Личной Брони. Надевание Личной Брони занимает 10-20 минут, и пока она надета, пилоты ограничены в подвижности и ловкости. Никто не надевает броню, если не ожидает попасть в зону боевых действий."
   },
   {
     "id": "tg_gear",
-    "name": "GEAR",
-    "description": "This is a tool, piece of equipment, or another item. Pilots can have up to three of these at a time."
+    "name": "Снаряжение",
+    "description": "Это инструмент, часть оборудования или другой предмет. Пилоты могут иметь до трех таких предметов одновременно."
   },
   {
     "id": "tg_sidearm",
-    "name": "SIDEARM",
-    "description": "This weapon can be used to Fight as a quick action instead of a full action."
+    "name": "Личное Оружие",
+    "description": "Это оружие может быть использовано для боя в качестве быстрого действия вместо полного действия."
   },
   {
     "id": "tg_invade",
-    "name": "INVADE",
-    "description": "This system provides additional options for the Invade Quick Tech Action."
+    "name": "Вторжение",
+    "description": "добавляет опции для использования с действием Быстрой Технологии Вторжение."
   },
   {
     "id": "tg_quick_tech",
-    "name": "QUICK TECH",
-    "description": "This tech can be used as a Quick Tech Action"
+    "name": "Быстрая Технология",
+    "description": "Эта Технология может быть использована как Быстрая Технология."
   },
   {
     "id": "tg_full_tech",
-    "name": "FULL TECH",
-    "description": "This tech can be used as a Full Tech Action"
+    "name": "Полная Технология ",
+    "description": "Эта Технология может быть использована как Полная Технология."
   },
   {
     "id": "tg_free_action",
-    "name": "FREE ACTION",
-    "description": "Characters can take free actions at any point during their turn, and they don’t count toward the number of quick or full actions they take. They can also be used to take actions more than once per turn.",
+    "name": "Свободное Действие",
+    "description": "Персонажи могут совершать свободные действия в любой момент своего хода, и они не учитываются при подсчете количества быстрых или полных действий. Они также могут быть использованы для выполнения действий более одного раза за ход.",
     "filter_ignore": true
   },
   {
     "id": "tg_range",
-    "name": "RANGE ({VAL})",
-    "description": "This system can be activated at a range of {VAL} spaces.",
+    "name": "Дальность ({VAL})",
+    "description": "Эта система может быть активирована в пределах {VAL} пространств.",
     "filter_ignore": true
   },
   {
     "id": "tg_modded",
-    "name": "MODDED",
-    "description": "This weapon has been equipped with a weapon mod."
+    "name": "Модифицировано",
+    "description": "Это оружие было экипировано оружейной модификацией."
   },
   {
     "id": "tg_resistance",
-    "name": "RESISTANCE",
-    "description": "Reduce all damage from a source you have resistance to by half"
+    "name": "Сопротивляемость",
+    "description": "Уменьшите все повреждения типа, к которому у вас сопротивляемость, наполовину."
   },
   {
     "id": "tg_exotic",
-    "name": "EXOTIC GEAR",
-    "description": "EXOTIC GEAR is a general tag for equipment that exists outside the traditional licensing system.",
+    "name": "Экзотическое Снаряжение",
+    "description": "Экзотическое Снаряжение - это общая метка для снаряжения, существующего вне системы лицензий.",
     "filter_ignore": true
   },
   {
     "id": "tg_recharge",
-    "name": "RECHARGE {VAL}+",
-    "description": "Once this system or weapon has been used, it can’t be used again until it is recharged. At the start of this NPC's turn, roll 1d6: if the result is equal to or greater {VAL}, the equipment can be used again. Only one roll is required for each NPC, even if an NPC has multiple Recharge systems or weapons. If this NPC has two Recharge systems with target numbers of 4+ and 5+, a roll of 5 will recharge both.",
+    "name": "Перезарядка {VAL}+",
+    "description": "После того, как эти системы или оружие были использованы, их нельзя использовать снова, пока они не будут перезаряжены. В начале хода НИП бросьте 1d6:  если результат равен или превышает {VAL}, они могут использовать его снова. Для каждого НИП требуется только один бросок, даже если у НИП есть несколько систем Перезарядки или оружий. Если у вашего НИП есть две системы Перезарядки с целевыми числами 4+ и 5+, бросок 5 перезарядит обе.",
     "filter_ignore": true
   },
   {
     "id": "tg_unlimited",
-    "name": "UNLIMITED",
-    "description": "This ability can be used any number of times per round.",
+    "name": "Неограниченное",
+    "description": "Эта способность может быть использована любое количество раз в раунд.",
     "filter_ignore": true
   },
   {
     "id": "tg_indestructible",
-    "name": "INDESTRUCTIBLE",
-    "description": "This equipment cannot be marked as Destroyed",
+    "name": "Неуничтожаемое",
+    "description": "Это снаряжение не может быть отмечено как Уничтоженное.",
     "filter_ignore": true
   },
   {
     "id": "tg_invulnerable",
-    "name": "INVULNERABLE",
-    "description": "This equipment is immune to all damage.",
+    "name": "Неуязвимое",
+    "description": "Это снаряжение имеет невосприимчивость ко всем повреждениям.",
     "filter_ignore": true
   },
   {
     "id": "tg_invisible",
-    "name": "INVISIBLE",
-    "description": "This unit is Invisible",
+    "name": "Невидимость",
+    "description": "Этот персонаж Невидимый.",
     "filter_ignore": true
   },
   {
     "id": "tg_resistall",
-    "name": "RESISTANCE (ALL)",
-    "description": "This unit has Resistance to all damage types",
+    "name": "Сопротивляемость (Все)",
+    "description": "Этот персонаж имеет Сопротивляемость ко всем типам повреждений.",
     "filter_ignore": true
   },
   {
     "id": "tg_set_max_uses",
-    "name": "SET MAX USES",
-    "description": "Allow player to set the maximum uses for this equipment (HIDDEN TAG)",
+    "name": "Установить Максимальное Количество Использований",
+    "description": "Разрешает игроку установить максимальное количество для этого снаряжения (Скрытая метка).",
     "hidden": true
   },
   {
     "id": "tg_set_damage_type",
-    "name": "SET DAMAGE TYPE",
-    "description": "Allow player to set the damage type for this equipment (HIDDEN TAG)",
+    "name": "Установить Тип Повреждений",
+    "description": "Разрешает игроку установить тип повреждений для этого снаряжения (Скрытая метка).",
     "hidden": true
   },
   {
     "id": "tg_set_damage_value",
-    "name": "SET DAMAGE VALUE",
-    "description": "Allow player to set the damage value for this equipment (HIDDEN TAG)",
+    "name": "Установить Значение Урона",
+    "description": "Разрешает игроку установить значение повреждений для этого снаряжения (Скрытая метка).",
     "hidden": true
   },
   {
     "id": "tg_no_cascade",
-    "name": "PREVENT CASCADE",
-    "description": "Prohibits an AI system from being recognized as a valid target for Cascading (HIDDEN TAG)",
+    "name": "Предотвратить Каскад",
+    "description": "Запрещает выбор этой ИИ системы как цели для Каскада (Скрытая метка).",
     "hidden": true
   }
 ]

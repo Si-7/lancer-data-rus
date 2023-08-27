@@ -1,9 +1,9 @@
 [{
     "id": "reserve_skill",
-    "name": "Skill Point",
+    "name": "Очко Триггера",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "Add a Skill Point to gain or improve a skill, typically as part of the \"Get Focused\" Downtime Action.",
+    "description": "Добавьте очко триггера для получения или улучшения триггера. Обычно используется как часть действия отдыха \"Сосредоточиться\".",
     "bonuses": [{
       "id": "skill_point",
       "val": 1
@@ -11,10 +11,10 @@
   },
   {
     "id": "reserve_mechskill",
-    "name": "Mech Skill Point",
+    "name": "Очко Навыка Мехов",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "Add a Mech Skill Point to add to your Pilot's HULL, AGILITY, SYSTEMS, or ENGINEERING rating.",
+    "description": "Добавьте очко навыка мехов для добавления к Корпусу, Маневренности, Системам или Инженерии вашего пилота.",
     "bonuses": [{
       "id": "mech_skill_point",
       "val": 1
@@ -22,10 +22,10 @@
   },
   {
     "id": "reserve_talent",
-    "name": "Talent Point",
+    "name": "Очко Таланта",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "Add a Talent Point to gain or improve a Pilot Talent.",
+    "description": "Добавьте очко таланта для получения или улучшения Таланта Пилота.",
     "bonuses": [{
       "id": "talent_point",
       "val": 1
@@ -33,10 +33,10 @@
   },
   {
     "id": "reserve_license",
-    "name": "License Point",
+    "name": "Очко Лицензии",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "Add a License Point to advance or unlock a new License.",
+    "description": "Добавьте очко лицензии для продвижения имеющейся или получения новой Лицензии.",
     "bonuses": [{
       "id": "license_point",
       "val": 1
@@ -44,10 +44,10 @@
   },
   {
     "id": "reserve_corebonus",
-    "name": "Extra CORE Bonus",
+    "name": "Дополнительный Бонус Ядра",
     "type": "Bonus",
     "label": "Bonus",
-    "description": "Add an additional CORE Bonus.",
+    "description": "Добавьте дополнительный Бонус Ядра.",
     "bonuses": [{
       "id": "cb_point",
       "val": 1
