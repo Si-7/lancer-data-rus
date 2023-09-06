@@ -1,6 +1,6 @@
 {
   "name": "lancer-data-rus",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Data for the LANCER TTRPG",
   "main": "index.js",
   "repository": "https://github.com/Si-7/lancer-data-rus.git",
@@ -8,5 +8,8 @@
     "lib": "lib"
   },
   "author": "Si-7",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
 }
