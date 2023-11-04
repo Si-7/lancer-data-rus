@@ -20,10 +20,10 @@
   "max_mech_armor": 4,
   "max_hase": 6,
   "mount_fittings": {
-    "Auxiliary": ["Auxiliary"],
-    "Main": ["Main", "Auxiliary"],
-    "Flex": ["Main", "Auxiliary"],
-    "Heavy": ["Superheavy", "Heavy", "Main", "Auxiliary"]
+    "Auxiliary": ["Вспомогательное"],
+    "Main": ["Основное", "Вспомогательное"],
+    "Flex": ["Основное", "Вспомогательное"],
+    "Heavy": ["Сверхтяжелое", "Тяжелое", "Основное", "Вспомогательное"]
   },
   "overcharge": ["1", "1d3", "1d6", "1d6+4"],
   "skill_headers": [

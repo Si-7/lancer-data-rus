@@ -1,8 +1,8 @@
 [{
     "id": "reserve_skill",
     "name": "Очко Триггера",
-    "type": "Bonus",
-    "label": "Bonus",
+    "type": "Бонус",
+    "label": "Бонус",
     "description": "Добавьте очко триггера для получения или улучшения триггера. Обычно используется как часть действия отдыха \"Сосредоточиться\".",
     "bonuses": [{
       "id": "skill_point",
@@ -12,8 +12,8 @@
   {
     "id": "reserve_mechskill",
     "name": "Очко Навыка Мехов",
-    "type": "Bonus",
-    "label": "Bonus",
+    "type": "Бонус",
+    "label": "Бонус",
     "description": "Добавьте очко навыка мехов для добавления к Корпусу, Маневренности, Системам или Инженерии вашего пилота.",
     "bonuses": [{
       "id": "mech_skill_point",
@@ -23,8 +23,8 @@
   {
     "id": "reserve_talent",
     "name": "Очко Таланта",
-    "type": "Bonus",
-    "label": "Bonus",
+    "type": "Бонус",
+    "label": "Бонус",
     "description": "Добавьте очко таланта для получения или улучшения Таланта Пилота.",
     "bonuses": [{
       "id": "talent_point",
@@ -34,8 +34,8 @@
   {
     "id": "reserve_license",
     "name": "Очко Лицензии",
-    "type": "Bonus",
-    "label": "Bonus",
+    "type": "Бонус",
+    "label": "Бонус",
     "description": "Добавьте очко лицензии для продвижения имеющейся или получения новой Лицензии.",
     "bonuses": [{
       "id": "license_point",
@@ -45,8 +45,8 @@
   {
     "id": "reserve_corebonus",
     "name": "Дополнительный Бонус Ядра",
-    "type": "Bonus",
-    "label": "Bonus",
+    "type": "Бонус",
+    "label": "Бонус",
     "description": "Добавьте дополнительный Бонус Ядра.",
     "bonuses": [{
       "id": "cb_point",
@@ -56,92 +56,92 @@
   {
     "id": "reserve_access",
     "name": "Доступ",
-    "type": "Resource",
-    "label": "Resource",
+    "type": "Ресурс",
+    "label": "Ресурс",
     "description": "Ключ-карта, приглашение, взятка или инсайдерский доступ в определенное место."
   },
   {
     "id": "reserve_backing",
     "name": "Поддержка",
-    "type": "Resource",
+    "type": "Ресурс",
     "label": "Contact",
     "description": "Полезный рычаг воздействия благодаря поддержки со стороны влиятельной фигуры."
   },
   {
     "id": "reserve_supplies",
     "name": "Припасы",
-    "type": "Resource",
-    "label": "Resource",
+    "type": "Ресурс",
+    "label": "Ресурс",
     "description": "Снаряжение, позволяющее легко пересечь опасную или враждебную зону."
   },
   {
     "id": "reserve_disguise",
     "name": "Маскировка",
-    "type": "Resource",
-    "label": "Identity",
+    "type": "Ресурс",
+    "label": "Личность",
     "description": "Эффективная маскировка или прикрытие, позволяющее проникнуть в какое-либо место."
   },
   {
     "id": "reserve_diversion",
     "name": "Диверсия",
-    "type": "Resource",
-    "label": "Diversion",
+    "type": "Ресурс",
+    "label": "Диверсия",
     "description": "Отвлечение, которое дает время для действий без страха перед последствиями."
   },
   {
     "id": "reserve_blackmail",
     "name": "Шантаж",
-    "type": "Resource",
-    "label": "Target",
+    "type": "Ресурс",
+    "label": "Цель",
     "description": "Материалы для шантажа или конфиденциальная информация, касающаяся конкретного лица."
   },
   {
     "id": "reserve_reputation",
     "name": "Репутация",
-    "type": "Resource",
-    "label": "Status",
+    "type": "Ресурс",
+    "label": "Статус",
     "description": "Доброе имя в районе миссии, вызывающее хорошее первое впечатление у местных жителей."
   },
   {
     "id": "reserve_safe_harbor",
     "name": "Тихая Гавань",
-    "type": "Resource",
-    "label": "Location",
+    "type": "Ресурс",
+    "label": "Расположение",
     "description": "Гарантированно безопасное место для встреч, планирования или восстановления сил."
   },
   {
     "id": "reserve_tracking",
     "name": "Отслеживание",
-    "type": "Resource",
-    "label": "Target",
+    "type": "Ресурс",
+    "label": "Цель",
     "description": "Подробная информация о местонахождении важных объектов или людей."
   },
   {
     "id": "reserve_knowledge",
     "name": "Знания",
-    "type": "Resource",
-    "label": "Subject",
+    "type": "Ресурс",
+    "label": "Предмет",
     "description": "Знание местной истории, обычаев, культуры или этикета."
   },
   {
     "id": "reserve_ammo",
     "name": "Боеприпасы",
-    "type": "Mech",
-    "label": "Ammo",
+    "type": "Мех",
+    "label": "Беприпасы",
     "description": "Доп. использование (+1 или +2) Ограниченного оружия или систем."
   },
   {
     "id": "reserve_rented_gear",
     "name": "Арендованное снаряжение",
-    "type": "Mech",
-    "label": "Gear",
+    "type": "Мех",
+    "label": "Снаряжение",
     "description": "Временный доступ к новому оружию или части снаряжения мехов."
   },
   {
     "id": "reserve_extra_repairs",
     "name": "Дополнительный ремонт",
-    "type": "Mech",
-    "label": "Resource",
+    "type": "Мех",
+    "label": "Ресурс",
     "description": "Припасы, дающие меху +2 Лимит Ремонта.",
     "bonuses": [{
       "id": "repcap",
@@ -151,8 +151,8 @@
   {
     "id": "reserve_core_battery",
     "name": "Батарея Ядра",
-    "type": "Mech",
-    "label": "Battery",
+    "type": "Мех",
+    "label": "Батарея",
     "description": "Доп. батарея, позволяющая использовать Систему Ядра мехов повторно.",
     "bonuses": [{
       "id": "core_power",
@@ -162,8 +162,8 @@
   {
     "id": "reserve_deployable_shield",
     "name": "Разворачиваемый щит",
-    "type": "Mech",
-    "label": "Shield",
+    "type": "Мех",
+    "label": "Щит",
     "description": "Одноразовый генератор разворачиваемого щита — Размер 1, который дает мягкое укрытие всем дружественным персонажам в радиусе Разрыва 2.",
     "deployables": [{
       "name": "Разворачиваемый щит (Ресурс)",
@@ -175,8 +175,8 @@
   {
     "id": "reserve_redundant_repair",
     "name": "Резервный ремонт",
-    "type": "Mech",
-    "label": "Resource",
+    "type": "Мех",
+    "label": "Ресурс",
     "description": "Возможность Стабилизировать свободным действием один раз за миссию.",
     "actions": [{
       "name": "Резервный ремонт",
@@ -187,8 +187,8 @@
   {
     "id": "reserve_systems_reinforcement",
     "name": "Усиление систем",
-    "type": "Mech",
-    "label": "Resource",
+    "type": "Мех",
+    "label": "Ресурс",
     "description": "+1 Точность к проверкам навыков, сделанным с помощью одного навыка — Корпус, Маневренность, Системы, Инженерия.",
     "synergies": [{
       "locations": ["hase"],
@@ -198,8 +198,8 @@
   {
     "id": "reserve_smart_ammo",
     "name": "Умные боеприпасы",
-    "type": "Mech",
-    "label": "Ammo",
+    "type": "Мех",
+    "label": "Боеприпасы",
     "description": "Все оружие по вашему выбору может стрелять так, как будто оно Умное.",
     "synergies": [{
       "locations": ["weapon"],
@@ -209,8 +209,8 @@
   {
     "id": "reserve_boosted_servos",
     "name": "Усиленные сервоприводы",
-    "type": "Mech",
-    "label": "Resource",
+    "type": "Мех",
+    "label": "Ресурс",
     "description": "Невосприимчивость к состоянию Замедления.",
     "synergies": [{
       "locations": ["move"],
@@ -220,8 +220,8 @@
   {
     "id": "reserve_jump_jets",
     "name": "Прыжковые ускорители",
-    "type": "Mech",
-    "label": "Resource",
+    "type": "Мех",
+    "label": "Ресурс",
     "description": "В процессе этой миссии ваш мех может Летать во время движения, но должен закончить перемещение на земле.",
     "synergies": [{
       "locations": ["move"],
@@ -231,36 +231,36 @@
   {
     "id": "reserve_scouting",
     "name": "Разведка",
-    "type": "Tactical",
-    "label": "Location",
+    "type": "Тактический",
+    "label": "Расположение",
     "description": "Подробная информация о видах мехов и угроз, с которыми вы столкнетесь во время миссии, например, их количество, тип и статистика."
   },
   {
     "id": "reserve_vehicle",
     "name": "Транспортные средства",
-    "type": "Tactical",
-    "label": "Designation",
+    "type": "Тактический",
+    "label": "Обозначение",
     "description": "Использование транспортного средства или звездолета (например, Градации 1 с шаблоном Транспорта или Корабля.)"
   },
   {
     "id": "reserve_reinforcements",
     "name": "Подкрепление",
-    "type": "Tactical",
-    "label": "Designation",
+    "type": "Тактический",
+    "label": "Обозначение",
     "description": "Возможность вызвать дружественного НИП-меха любого уровня, один раз за миссию."
   },
   {
     "id": "reserve_environmental_shielding",
     "name": "Защита от окруж. среды",
-    "type": "Tactical",
-    "label": "Environment",
+    "type": "Тактический",
+    "label": "Среда",
     "description": "Оборудование, позволяющее игнорировать специфическое воздействие на поле боя или опасной местности, например, сильную жару или холод."
   },
   {
     "id": "reserve_accuracy",
     "name": "Точность",
-    "type": "Tactical",
-    "label": "Skill/Action",
+    "type": "Тактический",
+    "label": "Навык/Действие",
     "description": "Обучение или улучшение, которое дает +1 Точности к определенному навыку или действию мехов на время этой миссии.",
     "synergies": [{
       "locations": ["other"],
@@ -270,8 +270,8 @@
   {
     "id": "reserve_bombardment",
     "name": "Бомбардировка",
-    "type": "Tactical",
-    "label": "Resource",
+    "type": "Тактический",
+    "label": "Ресурс",
     "description": "Артиллерийская или орбитальная бомбардировка, единожды во время боя мехов (полн. действие, Дальность 30 в пределах прям. вид., Взрыв 2, 3d6 Взрывного урона).",
     "actions": [{
       "name": "Бомбардировка",
@@ -279,11 +279,11 @@
       "detail": "Артиллерийская или орбитальная бомбардировка:<br>Дальность 30 в пределах прям. вид., Взрыв 2, 3d6 Взрывного урона.",
       "range": [
         {
-          "type": "Range",
+          "type": "Дальность",
           "val": 30
         },
         {
-          "type": "Blast",
+          "type": "Взрыв",
           "val": 2
         }
       ],
@@ -298,8 +298,8 @@
   {
     "id": "reserve_extended_harness",
     "name": "Расширенная подвеска",
-    "type": "Tactical",
-    "label": "Resource",
+    "type": "Тактический",
+    "label": "Ресурс",
     "description": "Спец. снаряжение, которое позволяет вам носить дополнительное оружие пилота и 2 дополнительных предмета снаряжения пилота на время этой миссии.",
     "bonuses": [
       {
@@ -311,22 +311,22 @@
   {
     "id": "reserve_ambush",
     "name": "Засада",
-    "type": "Tactical",
-    "label": "Location",
+    "type": "Тактический",
+    "label": "Расположение",
     "description": "Информация, которая позволяет вам выбрать, где именно будет происходить ваша следующая битва, включая план местности и укрытия."
   },
   {
     "id": "reserve_orbital_drop",
     "name": "Орбитальное падение",
-    "type": "Tactical",
-    "label": "Location",
+    "type": "Тактический",
+    "label": "Расположение",
     "description": "Возможность начать миссию, высадившись с орбиты в сильно укрепленное или труднодоступное место."
   },
   {
     "id": "reserve_nhp_assistant",
     "name": "Помощник НЧЛ",
-    "type": "Tactical",
-    "label": "Designation",
+    "type": "Тактический",
+    "label": "Обозначение",
     "description": "Нечеловеческая личность (НЧЛ) — продвинутый искусственный интеллект — контролируемый ГМ, который может дать вам совет по текущей ситуации."
   }
 ]
