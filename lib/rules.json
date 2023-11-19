@@ -29,23 +29,23 @@
   "skill_headers": [
       {
         "attr": "str",
-        "description": "use, resist, and apply direct force, physical or otherwise"
+        "description": "используйте, сопротивляйтесь или применяйте силу, будь то физическая или иная"
       },
       {
         "attr": "dex",
-        "description": "perform skillfully and accurately under pressure"
+        "description": "действуйте умело и точно под давлением"
       },
       {
         "attr": "int",
-        "description": "notice details, think creatively, and prepare"
+        "description": "замечайте детали, мыслите творчески и подготавливайтесь"
       },
       {
         "attr": "cha",
-        "description": "talk, lead, change minds, make connections, and requisition resources"
+        "description": "говорите, руководите, меняйте мнение, устанавливайте связи и получайте ресурсы"
       },
       {
         "attr": "Custom",
-        "description": "Custom Skill Triggers"
+        "description": "Пользовательский триггер"
       }
     ]
 }
