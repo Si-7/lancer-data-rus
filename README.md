@@ -738,7 +738,7 @@ Note that, aside from the `name` field, all fields on a profile are optional. If
   "profiles": [{
       "name": "Profile A",
       "damage": [{
-        "type": "kinetic",
+        "type": "Кинетический",
         "val": "1d6"
       }],
       "range": [{
@@ -759,7 +759,7 @@ Note that, aside from the `name` field, all fields on a profile are optional. If
     {
       "name": "Profile B",
       "damage": [{
-        "type": "kinetic",
+        "type": "Кинетический",
         "val": 10
       }],
       "range": [{

@@ -2076,7 +2076,7 @@
         {
           "id": "range",
           "damage_types": [
-            "Energy"
+            "Энергетический"
           ],
           "range_types": [
             "Range"
@@ -2086,7 +2086,7 @@
         {
           "id": "range",
           "damage_types": [
-            "Energy"
+            "Энергетический"
           ],
           "range_types": [
             "Threat"

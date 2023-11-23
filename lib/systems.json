@@ -200,7 +200,7 @@
         ],
         "damage": [
           {
-            "type": "Explosive",
+            "type": "Взрывной",
             "val": "1d6"
           }
         ],
@@ -819,7 +819,7 @@
         ],
         "damage": [
           {
-            "type": "Energy",
+            "type": "Энергетический",
             "val": "1d6"
           }
         ],
@@ -2476,7 +2476,7 @@
         "name": "Роликовая Граната",
         "damage": [
           {
-            "type": "Explosive",
+            "type": "Взрывной",
             "val": "1d6+3"
           }
         ],
@@ -2653,7 +2653,7 @@
         ],
         "damage": [
           {
-            "type": "Burn",
+            "type": "Горение",
             "val": 2
           }
         ],
@@ -3202,7 +3202,7 @@
       {
         "id": "range",
         "damage_types": [
-          "Energy"
+          "Энергетический"
         ],
         "weapon_types": [
           "ОББ"
@@ -3215,7 +3215,7 @@
       {
         "id": "range",
         "damage_types": [
-          "Energy"
+          "Энергетический"
         ],
         "weapon_types": [
           "Винтовка",
