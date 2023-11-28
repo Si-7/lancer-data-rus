@@ -1,10 +1,10 @@
 [
   {
   "id": "sitrep_standardcombat",
-  "name": "Standard Combat",
-  "pcVictory": "PCs defeat or route all enemy forces",
-  "enemyVictory": "PCs are defeated or retreat from battle",
-  "description": "A simple affair, with two sides facing off against each other until one of them is broken or destroyed."
+  "name": "Стандартный бой",
+  "pcVictory": "ПИ побеждают или обращают в бегство все силы противника",
+  "enemyVictory": "ПИ побеждены или бегут с поля боя",
+  "description": "Простое дело, в котором две стороны противостоят друг другу, пока одна из них не будет сломана или уничтожена."
   },
   {
   "id": "sitrep_control",
