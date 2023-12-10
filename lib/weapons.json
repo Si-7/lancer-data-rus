@@ -2794,7 +2794,7 @@
   },
   {
     "id": "mw_raleigh_integrated",
-    "name": "M35 Mjolnir",
+    "name": "M35 Мьёльнир",
     "mount": "Основной",
     "type": "ОБД",
     "range": [
@@ -2813,7 +2813,7 @@
         "val": 4
       }
     ],
-    "effect": "1/round, when you reload any weapon, this weapon can be fired as a free action.",
+    "effect": "1/раунд, когда вы заряжаете любое оружие, из этого оружия можно выстрелить в качестве свободного действия.",
     "license_id": ""
   },
   {
